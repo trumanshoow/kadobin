@@ -1,0 +1,100 @@
+.body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.box1 {
+    height: 30%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.box2 {
+    height: 100%;
+    max-height: 72%;
+    width: 100%;
+    max-width: 768px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--babyPurple);
+    border-radius: 2rem 2rem 0 0;
+    position: relative;
+}
+
+.logo img {
+    padding: .2rem;
+}
+
+.textUnderLogo h2 {
+    font-size: .6rem;
+    margin: -0.8rem 0 0 0;
+    color: var(--babyPurple);
+
+}
+
+#logoImage {
+    margin-bottom: .4rem;
+    width: 2.2rem;
+}
+
+#logoText {
+    width: 7rem;
+}
+
+.circle1 {
+    width: 5rem;
+    height: 5.1rem;
+    border-radius: 50%;
+    background-color: var(--babyYellow);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -2rem;
+    z-index: -1;
+    transition: all .5s;
+}
+
+.circle2 {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    background-color: rgb(255 255 255 / 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -4.6rem;
+    z-index: 1;
+    backdrop-filter: blur(3px);
+    transition: all .5s;
+
+}
+
+.loginText {
+    font-size: .8rem;
+    margin-top: -2.7rem;
+    color: white;
+}
+
+.endText {
+    text-align: center;
+    position: absolute;
+    bottom: 10px;
+    color: white;
+    font-size: .5rem;
+}
+
+.box2 h3 {
+    z-index: 1;
+}
+
+.error {
+    background-color: var(--babyError);
+}

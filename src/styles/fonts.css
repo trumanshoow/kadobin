@@ -1,0 +1,32 @@
+/*@font-face {*/
+/*    font-family: 'mainFont';*/
+/*    src: local(''),*/
+/*    url('../assets/fonts/IRAN-Sans.ttf') format('woff2');*/
+/*}*/
+@font-face {
+    font-family: 'mainFont-400';
+    font-style: normal;
+    font-weight: bold;
+    src: local('Open Sans'), local('OpenSans'), url('../assets/fonts/IRAN-Sans.ttf') format('woff2');
+}
+
+@font-face {
+    font-family: 'mainFont-700';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Open Sans Bold'), local('OpenSans-Bold'), url('../assets/fonts/IRAN-Sans.ttf') format('woff2');
+}
+
+/*@font-face {*/
+/*    font-family: 'mainFont-it-400';*/
+/*    font-style: italic;*/
+/*    font-weight: 400;*/
+/*    src: local('Open Sans Italic'), local('OpenSans-Italic'), url('../assets/fonts/IRAN-Sans.ttf') format('woff2');*/
+/*}*/
+
+/*@font-face {*/
+/*    font-family: 'mainFont-it-700';*/
+/*    font-style: italic;*/
+/*    font-weight: 700;*/
+/*    src: local('Open Sans Bold Italic'), local('OpenSans-BoldItalic'), url('../assets/fonts/IRAN-Sans.ttf') format('woff2');*/
+/*}*/

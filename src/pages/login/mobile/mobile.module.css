@@ -1,0 +1,22 @@
+.input {
+    margin-bottom: 1.56rem;
+    letter-spacing: .2rem;
+}
+
+.textBox2 {
+    margin-top: 6rem;
+    margin-bottom: 2rem;
+    color: white;
+    font-size: .66rem;
+}
+
+.goDetailsText {
+    color: white;
+    margin-top: 2rem;
+    font-size: .66rem;
+    text-underline-offset: .5rem;
+
+}
+.button {
+    padding: .7rem 7.4rem;
+}

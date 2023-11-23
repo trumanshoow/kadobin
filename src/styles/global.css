@@ -1,0 +1,22 @@
+* {
+    font-family: "mainFont-700", sans-serif;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+@media (min-width: 430px) {
+    html {
+        font-size: 19px;
+    }
+
+}
+
+@media (max-width: 430px) {
+    html {
+        font-size: 4.4vw;
+    }
+    button {
+        font-size: 4.4vw;
+    }
+}

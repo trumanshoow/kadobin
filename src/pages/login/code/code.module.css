@@ -1,0 +1,71 @@
+.editingBtn {
+    padding: 0 0.5rem;
+    height: 1.4rem;
+    border: 1px solid var(--babyYellow);
+    border-radius: 0.4rem;
+    background-color: var(--babyPurple);
+    margin-bottom: 1.5rem;
+    cursor: pointer;
+    color: var(--babyYellow);
+    font-size: .5rem;
+}
+
+p.number {
+    color: white;
+    margin: 3rem 0 .1rem 0;
+    font-size: 1.1rem;
+}
+
+.editingBtn:hover {
+    background-color: var(--babyYellow);
+    color: white;
+    transition: all .1s;
+}
+
+.editingBtn span {
+    margin-right: .3rem;
+}
+
+.editingBtn i {
+    font-size: .7rem;
+}
+
+.input {
+    margin-bottom: 1.56rem;
+}
+
+h4 {
+    color: white;
+    font-size: .7rem;
+}
+
+.resendWrapper a {
+    color: white;
+    text-underline-offset: .5rem;
+}
+
+.resendWrapper  {
+    font-size: .8rem;
+    width: 74%;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin-top: 1.8rem;
+}
+
+.input {
+    margin-bottom: 1.5rem;
+}
+
+.error .ReactInputVerificationCode__item,
+.error .ReactInputVerificationCode__item.is-active {
+
+    border: .5rem solid var(--babyError)!important;
+}
+.button {
+    padding: .7rem 7.4rem;
+}
+/*.custom-styles .ReactInputVerificationCode__item,*/
+/*.custom-styles .ReactInputVerificationCode__item.is-active {*/
+/*    border: .1rem solid #E12954;*/
+/*}*/

@@ -1,0 +1,9 @@
+/*@font-face {*/
+/*    font-family: 'MyMainFont':*/
+/*    src: local('MyMainFont'),*/
+/*    url('./assets/fonts') format('ttf');*/
+:root {
+    --babyPurple: #8F6DF4;
+    --babyYellow: #FFD500;
+    --babyError: #E12954;
+}

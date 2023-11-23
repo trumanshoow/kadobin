@@ -1,0 +1,19 @@
+
+.custom-styles {
+    --ReactInputVerificationCode-itemWidth: 2.5rem;
+    --ReactInputVerificationCode-itemHeight: 2.5rem;
+    margin-bottom: 1.4rem;
+
+}
+.custom-styles .ReactInputVerificationCode__item,
+.custom-styles .ReactInputVerificationCode__item.is-active {
+    /*box-shadow: none;*/
+    background-color: #ffffff;
+}
+.custom-styles .ReactInputVerificationCode__item{
+    color: #6d6d6d;
+    font-weight: 400;
+    font-size: 1rem;
+    border-radius: .7rem;
+    padding: .2rem;
+}

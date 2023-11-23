@@ -1,0 +1,25 @@
+.input {
+    width: 16rem;
+    height: 3rem;
+    border-radius: 0.8rem;
+    text-align: center;
+    border: 0;
+    transition: all .1s;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    display: none;
+}
+
+::-webkit-input-placeholder { font-size: 1rem; text-align: center;transition: all .1s;}
+
+:-moz-placeholder { font-size: 1rem; text-align: center;transition: all .1s;}
+
+::-moz-placeholder { font-size: 1rem; text-align: center;transition: all .1s; }
+
+:-ms-input-placeholder { font-size: 1rem; text-align: center;transition: all .1s;}
+
+input:focus::-webkit-input-placeholder {
+    opacity: 0;
+}
