@@ -1,7 +1,9 @@
-import logoImage from '../../assets/logo.png'
-import logoText from '../../assets/logoText.png'
-import Styles from './LoginLayout.module.css'
+
 import {Outlet, useSearchParams} from "react-router-dom";
+import Styles from './LoginLayout.module.css'
+import LogoIcon from '../../assets/icons/logo_icon'
+import LogoTextIcon from '../../assets/icons/logo_text_icon'
+
 
 
 const LayoutLogin = () => {
@@ -11,11 +13,12 @@ const LayoutLogin = () => {
 
     return (
         <>
+
             <div className={Styles.body}>
                 <div className={Styles.box1}>
                     <div className={Styles.logo}>
-                        <img src={logoText} alt={'logo-text'} id={Styles.logoText}/>
-                        <img src={logoImage} alt={'logo-img'} id={Styles.logoImage}/>
+                        <LogoTextIcon className={Styles.logoText}/>
+                        <LogoIcon className={Styles.logoIcon}/>
                     </div>
                     <div className={Styles.textUnderLogo}>
                         <h2>اونی که دوس داره رو بهش کادو بده</h2>

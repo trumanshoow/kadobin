@@ -29,7 +29,7 @@
     position: relative;
 }
 
-.logo img {
+.logo svg {
     padding: .2rem;
 }
 
@@ -40,12 +40,12 @@
 
 }
 
-#logoImage {
+.logoIcon {
     margin-bottom: .4rem;
     width: 2.2rem;
 }
 
-#logoText {
+.logoText {
     width: 7rem;
 }
 

@@ -1,16 +1,17 @@
 import {NavLink} from "react-router-dom";
+import Styles from "../bottomNavigation.module.css"
 
-const MenuLink = ({children, to}) => {
+const MenuLink = ({to, Icon, ActiveIcon, text, selected}) => {
     return (
         <>
             <NavLink
                 to={to}
-                style={({isActive}) => ({color: isActive ? 'red' : "black"})}
-                className={({isActive, isPending}) =>
-                    isPending ? "pending" : isActive ? "active" : ""
-                }
+                className={Styles.navLink}
             >
-                {children}
+                {selected ? <ActiveIcon/> : <Icon width={"1.3rem"}/>}
+                <div className={Styles.TextWrapper}>
+                    {text}
+                </div>
             </NavLink>
         </>
     );
