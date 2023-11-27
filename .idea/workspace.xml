@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f4eea380-dab1-447a-a90b-1d1095177aaa" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/Magnetic_Card.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/dreams.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/gift.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/home.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/kado.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/image/kado.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/logoText.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/notebook.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/notification-banner.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/image/notification-banner.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/radio_tower.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/shop.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sim_card.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/wallet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ ServicesButton/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ServicesButton/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/bottomNavigation/MenuLink/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/bottomNavigation/MenuLink/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/bottomNavigation/bottomNavigation.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/bottomNavigation/bottomNavigation.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/bottomNavigation/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/bottomNavigation/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leyout/login/LoginLayout.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/leyout/login/LoginLayout.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leyout/login/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/leyout/login/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leyout/main/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/leyout/main/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/home/home.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/home.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/home/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/home/shop/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/shop/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/global.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/global.css" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsbtTreeLayoutManager">
+    <layout place="tools.popupnpm">
+      <scroll-view-position x="0" y="0" />
+    </layout>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="PhpDebugGeneral" listening_started="true" />
+  <component name="ProjectId" id="2XALpEvwAGiX1DVfoo2JiMYRuX0" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\PhpStorm 2023.1.3\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Alireza Tech\Desktop\kadobin\kadobin\src\assets\image" />
+      <recent name="C:\Users\Alireza Tech\Desktop\kadobin\kadobin\src\assets\icons" />
+      <recent name="C:\Users\Alireza Tech\Desktop\kadobin\kadobin\src\assets" />
+      <recent name="C:\Users\Alireza Tech\Desktop\kadobin\kadobin\src\pages\home" />
+      <recent name="C:\Users\Alireza Tech\Desktop\kadobin\kadobin\src\components" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.start" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f4eea380-dab1-447a-a90b-1d1095177aaa" name="Changes" comment="" />
+      <created>1698067122055</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1698067122055</updated>
+      <workItem from="1698067125081" duration="615000" />
+      <workItem from="1698068521121" duration="823000" />
+      <workItem from="1698079273947" duration="910000" />
+      <workItem from="1698081853665" duration="3225000" />
+      <workItem from="1698124814998" duration="12445000" />
+      <workItem from="1698159534573" duration="5188000" />
+      <workItem from="1698215073024" duration="2973000" />
+      <workItem from="1698218084077" duration="8105000" />
+      <workItem from="1698315623559" duration="11584000" />
+      <workItem from="1698339013094" duration="12201000" />
+      <workItem from="1698469642669" duration="22808000" />
+      <workItem from="1698504635585" duration="2910000" />
+      <workItem from="1698579585904" duration="26143000" />
+      <workItem from="1698746179770" duration="5684000" />
+      <workItem from="1698811050434" duration="5928000" />
+      <workItem from="1698848713364" duration="661000" />
+      <workItem from="1699181777199" duration="12880000" />
+      <workItem from="1699269615947" duration="7511000" />
+      <workItem from="1699277907778" duration="6136000" />
+      <workItem from="1699438167595" duration="16314000" />
+      <workItem from="1699502554186" duration="11132000" />
+      <workItem from="1699516061063" duration="861000" />
+      <workItem from="1699517151652" duration="936000" />
+      <workItem from="1699521596993" duration="8780000" />
+      <workItem from="1699947243993" duration="1151000" />
+      <workItem from="1700633604514" duration="1000" />
+      <workItem from="1700724115505" duration="6628000" />
+      <workItem from="1700891107217" duration="20148000" />
+      <workItem from="1700993414332" duration="11812000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
