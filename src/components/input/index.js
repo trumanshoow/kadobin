@@ -1,4 +1,3 @@
-import React from 'react';
 import Styles from './input.module.css'
 
 const Input = ({type, placeholder, maxLength, className}) => {

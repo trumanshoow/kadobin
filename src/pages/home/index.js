@@ -1,7 +1,5 @@
 
 import Styles from "./home.module.css";
-import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import {faBars} from "@fortawesome/free-solid-svg-icons";
 import Button from "../../components/button";
 import React from "react";
 import ServicesButton from "../../components/ServicesButton";
@@ -9,13 +7,14 @@ import Bill_card_icon from '../../assets/icons/bill_card_icon'
 import Magnetic_card from '../../assets/icons/magnetic_card_icon'
 import Sim_card_icon from '../../assets/icons/sim_card_icon'
 import Radio_tower_card_icon from '../../assets/icons/radio_tower_card_icon'
+import HamburgMenu_icon from "../../assets/icons/hamburgMenu_icon";
 const home = () => {
     return (
             <div className={Styles.body}>
                 <div className={Styles.section}>
                     <div className={Styles.container}>
                         <div className={Styles.header}>
-                            <FontAwesomeIcon icon={faBars} className={Styles.hamburgMenu}/>
+                            <HamburgMenu_icon width="2.5rem"/>
                             <h2>سلام خوش اومدی</h2>
                         </div>
                         <div className={Styles.kadoImg}>

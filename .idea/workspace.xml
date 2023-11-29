@@ -5,31 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f4eea380-dab1-447a-a90b-1d1095177aaa" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/Magnetic_Card.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/dreams.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/gift.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/home.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/kado.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/image/kado.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/logoText.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/notebook.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/notification-banner.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/image/notification-banner.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/radio_tower.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/shop.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/sim_card.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/wallet.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ ServicesButton/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ServicesButton/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/bottomNavigation/MenuLink/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/bottomNavigation/MenuLink/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/bottomNavigation/bottomNavigation.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/bottomNavigation/bottomNavigation.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/bottomNavigation/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/bottomNavigation/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leyout/login/LoginLayout.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/leyout/login/LoginLayout.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leyout/login/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/leyout/login/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leyout/main/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/leyout/main/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/home/home.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/home.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/icons/bill_card_icon.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/icons/bill_card_icon.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/button/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/button/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/input/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/input/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/home/gift/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/gift/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/home/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/home/shop/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/shop/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/global.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/global.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,6 +129,9 @@
       <workItem from="1700724115505" duration="6628000" />
       <workItem from="1700891107217" duration="20148000" />
       <workItem from="1700993414332" duration="11812000" />
+      <workItem from="1701241837384" duration="4152000" />
+      <workItem from="1701253439049" duration="423000" />
+      <workItem from="1701259154345" duration="700000" />
     </task>
     <servers />
   </component>
