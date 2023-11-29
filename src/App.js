@@ -3,10 +3,10 @@ import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
 import Mobile from './pages/login/mobile'
 import Code from "./pages/login/code";
 import Home from "./pages/home";
-import Shop from "./pages/home/shop";
-import Gift from "./pages/home/gift";
-import Wallet from "./pages/home/wallet";
-import Dreams from "./pages/home/dreams";
+import Shop from "./pages/shop";
+import Gift from "./pages/gift";
+import Wallet from "./pages/wallet";
+import Dreams from "./pages/dreams";
 import LayoutLogin from "./leyout/login";
 import MainLayout from "./leyout/main";
 import './styles/variable.css'

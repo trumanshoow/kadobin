@@ -1,0 +1,10 @@
+.kadoImg {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;;
+}
+
+.kadoImg img {
+    width: 70%;
+}
