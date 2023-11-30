@@ -15,12 +15,12 @@ import './inputGroup.css'
 //         name: 'Banana',
 //     },
 // ];
-const InputGroup = ({length , placeholder ,className}) => {
+const InputGroup = ({length , placeholder ,className, onChange}) => {
 
     return (
         <>
             <div className={className + " " + "custom-styles"}>
-                <ReactInputVerificationCode length={length} placeholder={placeholder}/>
+                <ReactInputVerificationCode length={length} placeholder={placeholder} onChange={onChange}/>
             </div>
         </>
     );

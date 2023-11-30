@@ -1,6 +1,5 @@
 import React from 'react';
-import HomeLayout from "../index";
-import BottomNavigation from "../../../components/bottomNavigation";
+import BottomNavigation from "../../components/bottomNavigation";
 
 const ShopPage = () => {
     return (
