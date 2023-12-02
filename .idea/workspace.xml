@@ -4,21 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f4eea380-dab1-447a-a90b-1d1095177aaa" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/pages/gift/gift.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/gift/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/input/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/input/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/inputGroup/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/inputGroup/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/home/dreams/dream.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/dreams/dream.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/home/dreams/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/dreams/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/home/shop/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/shop/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/home/shop/shop.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/shop/shop.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/home/wallet/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/wallet/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/login/code/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/login/code/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/login/mobile/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/login/mobile/index.js" afterDir="false" />
-    </list>
+    <list default="true" id="f4eea380-dab1-447a-a90b-1d1095177aaa" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,23 +41,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;Merging master&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\PhpStorm 2023.1.3\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\PhpStorm 2023.1.3\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Alireza Tech\Desktop\kadobin\kadobin\src\assets\image" />
@@ -139,6 +125,7 @@
       <workItem from="1701253439049" duration="423000" />
       <workItem from="1701259154345" duration="700000" />
       <workItem from="1701324434346" duration="1250000" />
+      <workItem from="1701496810379" duration="377000" />
     </task>
     <servers />
   </component>
