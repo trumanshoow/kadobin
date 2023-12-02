@@ -1,7 +1,11 @@
 const RadioTowerCart = (props) => {
     return (
         <>
+<<<<<<< HEAD
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25.98 24.694" {...props}>
+=======
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25.98 24.694">
+>>>>>>> 5cf147eeea99a0d389627dcb6e15841ab7059f82
                 <g transform="translate(-2.01 -3.01)">
                     <g transform="translate(2.01 3.01)" opacity="0.35">
                         <path
