@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f4eea380-dab1-447a-a90b-1d1095177aaa" name="Changes" comment="" />
+    <list default="true" id="f4eea380-dab1-447a-a90b-1d1095177aaa" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/assets/icons/radio_tower_card_icon.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/icons/radio_tower_card_icon.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/icons/sim_card_icon.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/icons/sim_card_icon.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,6 +50,8 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
+    "javascript.nodejs.core.library.configured.version": "18.15.0",
+    "javascript.nodejs.core.library.typings.version": "18.15.0",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -125,7 +130,7 @@
       <workItem from="1701253439049" duration="423000" />
       <workItem from="1701259154345" duration="700000" />
       <workItem from="1701324434346" duration="1250000" />
-      <workItem from="1701496810379" duration="377000" />
+      <workItem from="1701496810379" duration="718000" />
     </task>
     <servers />
   </component>

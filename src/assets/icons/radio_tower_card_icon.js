@@ -1,7 +1,7 @@
 const RadioTowerCart = () => {
     return (
         <>
-            <svg xmlns="http://www.w3.org/2000/svg" width="25.98" height="24.694" viewBox="0 0 25.98 24.694">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25.98 24.694">
                 <g transform="translate(-2.01 -3.01)">
                     <g transform="translate(2.01 3.01)" opacity="0.35">
                         <path
