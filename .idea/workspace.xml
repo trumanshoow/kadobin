@@ -4,29 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f4eea380-dab1-447a-a90b-1d1095177aaa" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/icons/dreams_active_icon.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/icons/dreams_active_icon.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/icons/dreams_icon.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/icons/dreams_icon.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/icons/gift_active_icon.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/icons/gift_active_icon.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/icons/gift_icon.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/icons/gift_icon.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/icons/home_active_icon .js" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/icons/home_active_icon .js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/icons/logo_text_icon.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/icons/logo_text_icon.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/icons/radio_tower_card_icon.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/icons/radio_tower_card_icon.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/icons/shop_active_icon.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/icons/shop_active_icon.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/icons/shop_icon.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/icons/shop_icon.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/icons/sim_card_icon.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/icons/sim_card_icon.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/icons/wallet_active_icon.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/icons/wallet_active_icon.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/icons/wallet_icon.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/icons/wallet_icon.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ServicesButton/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ServicesButton/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/input/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/input/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leyout/main/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/leyout/main/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leyout/main/main.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/leyout/main/main.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/home/gift/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/home/home.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/home.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/home/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/login/mobile/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/login/mobile/index.js" afterDir="false" />
-    </list>
+    <list default="true" id="f4eea380-dab1-447a-a90b-1d1095177aaa" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -149,7 +127,7 @@
       <workItem from="1701324434346" duration="10812000" />
       <workItem from="1701498052740" duration="3182000" />
       <workItem from="1701509684775" duration="520000" />
-      <workItem from="1701510248214" duration="2688000" />
+      <workItem from="1701510248214" duration="3445000" />
     </task>
     <servers />
   </component>
