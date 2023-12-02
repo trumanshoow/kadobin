@@ -1,8 +1,7 @@
-const LogoTextIcon = ({className}) => {
+const LogoTextIcon = (props) => {
     return (
         <>
-            <svg className={className} xmlns="http://www.w3.org/2000/svg" width="133.436"
-                 height="40.211" viewBox="0 0 133.436 40.211">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 133.436 40.211" {...props}>
                 <defs>
                     <clipPath id="a">
                         <rect width="133.436" height="40.211" fill="#472c9c"/>

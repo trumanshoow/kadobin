@@ -1,8 +1,5 @@
-
 .body {
     height: 100vh;
-    background-color: #44277808;
-    position: relative;
     width: 100%;
 }
 
@@ -62,7 +59,7 @@
     justify-content: center;
 }
 
-.text_img_Wrapper {
+.text_icon_Wrapper {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -76,7 +73,7 @@
     justify-content: space-around;
 }
 
-.text_img_Wrapper span {
+.text_icon_Wrapper span {
     margin-top: .5rem;
     color: gray;
 }

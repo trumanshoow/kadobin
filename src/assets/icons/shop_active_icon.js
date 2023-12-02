@@ -1,9 +1,9 @@
 
 
-const ShopActiveIcon = () => {
+const ShopActiveIcon = (props) => {
     return (
         <>
-          <svg xmlns="http://www.w3.org/2000/svg" width="23.657" height="21.374" viewBox="0 0 23.657 21.374">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23.657 21.374" {...props}>
             <g id="Group_375" dataName="Group 375" transform="translate(0 0)">
               <path id="Path_6108" dataName="Path 6108" d="M22.4,10.373v8.862a3.408,3.408,0,0,1-3.413,3.421H5.288a3.421,3.421,0,0,1-3.421-3.421V10.373a5.958,5.958,0,0,0,2.854.876A5.494,5.494,0,0,0,7.7,10.29a11.623,11.623,0,0,0,4.44.96,11.623,11.623,0,0,0,4.44-.96,5.494,5.494,0,0,0,2.979.96A5.837,5.837,0,0,0,22.4,10.373Z" transform="translate(-0.309 -1.703)" fill="#fff"/>
               <path id="Path_6109" dataName="Path 6109" d="M19.882,23.3h-5.7V15.316a1.142,1.142,0,0,1,1.141-1.141h3.421a1.142,1.142,0,0,1,1.141,1.141Z" transform="translate(-2.346 -2.346)" fill="#f4d32f"/>

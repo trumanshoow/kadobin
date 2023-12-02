@@ -5,7 +5,7 @@ import Styles from "./main.module.css";
 
 const MainLayout = () => {
     return (
-        <div className={Styles.a}>
+        <div className={Styles.layout}>
             <Outlet/>
             <BottomNavigation/>
         </div>

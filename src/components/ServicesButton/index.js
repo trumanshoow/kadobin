@@ -1,12 +1,12 @@
 import React from 'react';
 import Styles from "../../pages/home/home.module.css";
 
-const ServicesButton = ({icons ,text}) => {
+const ServicesButton = ({Icon ,text}) => {
     return (
         <>
-            <div className={Styles.text_img_Wrapper}>
+            <div className={Styles.text_icon_Wrapper}>
                 <div className={Styles.boxes}>
-                    {icons}
+                    <Icon width='1.8rem'/>
                 </div>
                 <span>{text}</span>
             </div>
