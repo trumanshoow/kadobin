@@ -1,0 +1,22 @@
+.boxes {
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 1.2rem;
+    background-color: white;
+    box-shadow: 0 0 0.2rem #44277812;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text_icon_Wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: .6rem;
+}
+
+.text_icon_Wrapper span {
+    margin-top: .5rem;
+    color: gray;
+}

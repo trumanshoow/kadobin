@@ -7,8 +7,8 @@ import Shop from "./pages/shop";
 import Gift from "./pages/gift";
 import Wallet from "./pages/wallet";
 import Dreams from "./pages/dreams";
-import LayoutLogin from "./leyout/login";
-import MainLayout from "./leyout/main";
+import LayoutLogin from "./layout/login";
+import MainLayout from "./layout/main";
 import './styles/variable.css'
 import './styles/fonts.css'
 import './styles/global.css'

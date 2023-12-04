@@ -18,20 +18,6 @@
     align-items: center;
 }
 
-.header {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    color: var(--babyPurple);
-    font-size: .5rem;
-    font-family: 'mainFont-400';
-}
-
-.header .hamburgMenu {
-    font-size: 1.3rem;
-}
-
 .kadoImg {
     width: 100%;
     display: flex;
@@ -48,34 +34,11 @@
     padding: .9rem 5rem;
 }
 
-.boxes {
-    width: 3.5rem;
-    height: 3.5rem;
-    border-radius: 1.2rem;
-    background-color: white;
-    box-shadow: 0 0 0.2rem #44277812;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.text_icon_Wrapper {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-size: .6rem;
-}
-
 .boxWrapper {
     width: 100%;
     margin-top: 2rem;
     display: flex;
     justify-content: space-around;
-}
-
-.text_icon_Wrapper span {
-    margin-top: .5rem;
-    color: gray;
 }
 
 .banner {
