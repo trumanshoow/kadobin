@@ -1,5 +1,5 @@
-import React from 'react';
 import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
+import React from 'react';
 import Mobile from './pages/login/mobile'
 import Code from "./pages/login/code";
 import Home from "./pages/home";
@@ -9,14 +9,16 @@ import Wallet from "./pages/wallet";
 import Dreams from "./pages/dreams";
 import LayoutLogin from "./layout/login";
 import MainLayout from "./layout/main";
-import './styles/variable.css'
-import './styles/fonts.css'
-import './styles/global.css'
+import Terms from "./pages/login/mobile";
+import './styles/variable.css';
+import './styles/fonts.css';
+import './styles/global.css';
 
 const App = () => {
     return (
         <Router>
             <Routes>
+                <Route path="/login/mobile/terms" element={<Terms/>}/>
                 <Route path="/login" element={<LayoutLogin/>}>
                     <Route path="/login/mobile" element={<Mobile/>}/>
                     <Route path="/login/code" element={<Code/>}/>

@@ -1,10 +1,8 @@
 
 import {Outlet, useSearchParams} from "react-router-dom";
-import Styles from './LoginLayout.module.css'
-import LogoIcon from '../../assets/icons/logo_icon'
+import Styles from './LoginLayout.module.css';
+import LogoIcon from '../../assets/icons/logo_icon';
 import LogoTextIcon from '../../assets/icons/logo_text_icon'
-
-
 
 const LayoutLogin = () => {
 
