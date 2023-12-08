@@ -9,7 +9,7 @@ import Wallet from "./pages/wallet";
 import Dreams from "./pages/dreams";
 import LayoutLogin from "./layout/login";
 import MainLayout from "./layout/main";
-import Terms from "./pages/login/mobile";
+import Terms from "./pages/terms";
 import './styles/variable.css';
 import './styles/fonts.css';
 import './styles/global.css';
@@ -18,7 +18,7 @@ const App = () => {
     return (
         <Router>
             <Routes>
-                <Route path="/login/mobile/terms" element={<Terms/>}/>
+                <Route path="/terms" element={<Terms/>}/>
                 <Route path="/login" element={<LayoutLogin/>}>
                     <Route path="/login/mobile" element={<Mobile/>}/>
                     <Route path="/login/code" element={<Code/>}/>
