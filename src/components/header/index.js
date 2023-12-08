@@ -1,4 +1,4 @@
-import React, {useEffect} from 'react';
+import React from 'react';
 import Styles from "./header.module.css";
 import HamburgMenu_icon from "../../assets/icons/hamburgMenu_icon";
 import {useLocation} from "react-router-dom";
@@ -17,6 +17,7 @@ const Header = ({title}) => {
     //
     // }[Location.pathname])
     console.log(Location.pathname)
+    // eslint-disable-next-line array-callback-return
     const handelSetting = setting.find((item) => {
         if (item.path === Location.pathname)
             return [
@@ -29,6 +30,7 @@ const Header = ({title}) => {
         <>
             <div className={Styles.header + " " + handelSetting.className}>
                 <div className={Styles.container}>
+                    {/* eslint-disable-next-line react/jsx-pascal-case */}
                     <HamburgMenu_icon width="2.5rem"/>
                     <h2>{handelSetting.text}</h2>
                 </div>
