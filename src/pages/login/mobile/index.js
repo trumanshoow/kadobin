@@ -20,7 +20,7 @@ const Mobile = () => {
             <Input type={'tel'} placeholder={'09 _ _ _ _ _ _ _ _ _'} maxLength={'11'} className={Styles.input}
                    onClick={handleClickInput}/>
             <Button className={Styles.button} text={"ورود"} onClick={handleClick}></Button>
-            <Link to="#" className={Styles.goDetailsText}>شرایط استفاده از کادو بین</Link>
+            <Link to="/login/mobile/terms" className={Styles.goDetailsText}>شرایط استفاده از کادوبین</Link>
         </>
     );
 };
