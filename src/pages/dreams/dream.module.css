@@ -1,0 +1,34 @@
+.picture {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 9rem;
+}
+
+.Btn {
+    margin: .8rem 0;
+    padding: .6rem 4.7rem;
+}
+
+.subtitle {
+    width: 78%;
+    font-size: .6rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: .1rem 0;
+    opacity: 40%;
+}
+
+.dreamCounter {
+    background-color: white;
+    width: 17rem;
+    height: 3rem;
+    margin: 1.8rem 0;
+    border: none;
+    font-size: .7rem;
+    border-radius: 1rem;
+    opacity: 60%;
+    box-shadow: 0 5px 13px -11px black;
+}
