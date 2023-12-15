@@ -1,5 +1,3 @@
-
-
 const DreamPage = () => {
     return (
         <>
