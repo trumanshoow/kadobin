@@ -1,10 +1,67 @@
-.kadoImg {
+.body {
     width: 100%;
-    display: flex;
-    justify-content: center;
-    margin-top: 1rem;;
 }
-
-.kadoImg img {
-    width: 70%;
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Wrraper {
+    width: 100;
+}
+.KadoImg {
+    width: 100%;
+}
+.img{
+    width: 13rem;
+}
+.title{
+    font-size: .8rem;
+    margin: 2rem 0 2rem 0;
+}
+.Input{
+    background-color: #f3f3f3;
+}
+.Input:focus{
+    outline:none;
+    }
+.Input2{
+    margin: .5rem 0 0 0;
+    background-color: #f3f3f3;
+    width: 10.5rem;
+    padding: 0 .9rem;
+}
+.Input2:focus{
+    outline:none;
+}
+.button{
+    width: 3rem;
+    height: 3rem;
+    margin: .5rem 0 0 1.1rem;
+    border-radius: 1rem;
+    background-color: blueviolet;
+    border: none;
+}
+.parentinput{
+    display: flex;
+}
+.name{
+    font-size: .6rem;
+    margin: 2rem 0 2rem 0;
+    color: gainsboro;
+}
+.white{
+    background-color: white;
+    border-radius: 0 0 4rem 4rem ;
+    height: 32rem;
+}
+.Button{
+    width: 13rem;
+    height: 3rem;
+    background-color: #f3f3f3;
+    box-shadow: 0px 7px 4px gainsboro;
+    margin: 1rem 0 0 0;
+}
+.Button:active{
+    box-shadow: none;
 }
