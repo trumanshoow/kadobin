@@ -15,7 +15,7 @@ import ServicesButton2 from '../../components/ServicesButton2'
 
 
 const data =[
-   {test:" 68 ", text:" پوشاک مردانه ", Icon:Tshirt},
+   { test:" 68 ", text:" پوشاک مردانه ", Icon:Tshirt},
    { test:" 25 ", text:" زیورالات ", Icon:Jewelry},
    { test:" 25 ", text:" هدیه نقدی ", Icon:Banknotes},
    { test:" 59 ", text:" اسباب بازی ", Icon:Christmas},
