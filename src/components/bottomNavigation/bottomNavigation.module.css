@@ -29,3 +29,34 @@
     justify-content: center;
     margin-top:.4rem;
 }
+
+.activeNavLink {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.activeNavLink:before {
+    content: '';
+    position: absolute;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    background-color: #ffffff60;
+    backdrop-filter: blur(10px);
+}
+
+.activeNavLink:after {
+    content: '';
+    background-color: yellow;
+    width: 3.5rem;
+    height: 3.5rem;
+    position: absolute;
+    bottom: -100%;
+    /*bottom: -3.5rem;*/
+}
+
+.activeNavLink p {
+    color: #000;
+}

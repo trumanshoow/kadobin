@@ -9,7 +9,7 @@ import Home_active_icon from '../../assets/icons/home_active_icon ';
 import Gift_active_icon from '../../assets/icons/gift_active_icon';
 import Wallet_active_icon from '../../assets/icons/wallet_active_icon';
 import Shop_active_icon from '../../assets/icons/shop_active_icon';
-import Dreams_active_icon from '../../assets/icons/dreams_active_icon';
+import Dreams_active_icon from '../../assets/icons/dreamsActiveIcon';
 
 const data = [
     {text: "آرزوها", to: "/dreams", Icon: Dreams_icon, ActiveIcon: Dreams_active_icon},

@@ -1,4 +1,5 @@
 import {NavLink} from "react-router-dom";
+import className from "classnames";
 import Styles from "../bottomNavigation.module.css"
 
 const MenuLink = ({to, Icon, ActiveIcon, text, selected}) => {
@@ -6,11 +7,11 @@ const MenuLink = ({to, Icon, ActiveIcon, text, selected}) => {
         <>
             <NavLink
                 to={to}
-                className={Styles.navLink}
+                className={className(Styles.navLink, {[Styles.activeNavLink]: selected})}
             >
                 {selected ? <ActiveIcon/> : <Icon width={"1.3rem"}/>}
                 <div className={Styles.TextWrapper}>
-                    {text}
+                    <p>{text}</p>
                 </div>
             </NavLink>
         </>
