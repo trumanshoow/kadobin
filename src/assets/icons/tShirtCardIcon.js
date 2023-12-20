@@ -1,7 +1,7 @@
-const Shirt = () => {
+const Shirt = (props) => {
   return (
     <>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32.108 32.108">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32.108 32.108" {...props}>
         <g id="icons8_t-shirt" transform="translate(-3 -3)">
           <path id="Path_1468" dataName="Path 1468" d="M24.883,4.045A3.569,3.569,0,0,0,22.361,3H11.045A3.569,3.569,0,0,0,8.522,4.045L6,6.568V29.757a5.351,5.351,0,0,0,5.351,5.351h10.7a5.351,5.351,0,0,0,5.351-5.351V6.568Z" transform="translate(2.351)" fill="#7ba1fb" opacity="0.35" />
           <path id="Path_1469" dataName="Path 1469" d="M9,3A5.351,5.351,0,0,0,19.7,3Z" transform="translate(4.703)" fill="#7ba1fb" />
