@@ -1,14 +1,14 @@
 import Styles from "./ServicesButton2.module.css"
 
-const ServicesButton2 = ({Icon ,text , test}) => {
+const ServicesButton2 = ({Icon ,title , subTitle}) => {
     return (
         <>
-            <div className={Styles.texticonWrapper}>
+            <div className={Styles.textIconWrapper}>
                 <div className={Styles.boxes}>
-                    <Icon/>
+                    <Icon width="2rem"/>
                 </div>
-                <h3  className={Styles.ServicesButton2}>{text}</h3>
-                <span className={Styles.test}>{test}</span>
+                <h3 className={Styles.title}>{title}</h3>
+                <span className={Styles.subTitle}>{subTitle}</span>
             </div>
         </>
     );

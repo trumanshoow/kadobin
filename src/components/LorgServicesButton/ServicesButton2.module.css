@@ -1,7 +1,4 @@
-.ServicesButton2{
-    margin: 0;
-    font-size: .9rem;
-}
+
 .boxes{
     background-color: white;
     width: 5rem;
@@ -12,6 +9,15 @@
     align-items: center;
     margin:0 1rem 0 1rem;
 }
-.test{
-    font-size: .8rem;
+.title {
+    font-size: 1rem;
+}
+
+.subTitle{
+    font-size: .4rem;
+}
+.textIconWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
