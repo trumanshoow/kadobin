@@ -8,7 +8,13 @@ const DreamPage = () => {
 
     return (
         <>
-            <img className={Styles.picture} src={require("../../assets/image/Ghool cheragh jadoo.png")} alt="Ghool cheragh jadoo"/>
+            <div className={Styles.body}>
+                <div className={Styles.section}>
+                    <div className={Styles.container}>
+                        <img className={Styles.picture} src={require("../../assets/image/Ghool cheragh jadoo.png")} alt="Ghool cheragh jadoo"/>
+                    </div>
+                </div>
+            </div>
 
             <Button text="آرزو کن" className={Styles.Btn}></Button>
             <div className={Styles.subtitle}>

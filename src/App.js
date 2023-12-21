@@ -13,6 +13,7 @@ import Terms from "./pages/terms";
 import './styles/variable.css';
 import './styles/fonts.css';
 import './styles/global.css';
+import DreamApp from "./pages/dreamAdd";
 
 const App = () => {
     return (
@@ -30,6 +31,7 @@ const App = () => {
                     <Route path="/gift" element={<Gift/>}/>
                     <Route path="/wallet" element={<Wallet/>}/>
                     <Route path="/dreams" element={<Dreams/>}/>
+                    <Route path="/dreams/addwish" element={<DreamApp/>}/>
                 </Route>
             </Routes>
         </Router>
