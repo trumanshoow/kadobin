@@ -7,7 +7,7 @@ import {useState} from "react";
 
 const MainLayout = () => {
 
-    const [value , setValue]=useState(3)
+    const [value , setValue]=useState("3")
 
     return (
         <div className={Styles.layout}>
