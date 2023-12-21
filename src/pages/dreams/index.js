@@ -1,7 +1,11 @@
 import Styles from "./dream.module.css"
 import Button from "../../components/button";
+import {useState} from "react";
 
-const DreamPage = (props) => {
+const DreamPage = () => {
+
+    const [value , setValue]=useState(3)
+
     return (
         <>
             <img className={Styles.picture} src={require("../../assets/image/Ghool cheragh jadoo.png")} alt="Ghool cheragh jadoo"/>
@@ -11,8 +15,7 @@ const DreamPage = (props) => {
                 <span>یادت باشه که آرزو هات قراره توسط کسایی که بهت می خوان کادو بدن قراره برآورده بشه ، پس چیزی آرزو نکن که از توانشون خارج</span>
             </div>
 
-            <button className={Styles.dreamCounter}>هنوز {props.value} تا آرزوی دیگه داری</button>
-
+            <button className={Styles.dreamCounter}>هنوز <span className={Styles.valueSpan}>{value}</span> تا آرزوی دیگه داری</button>
 
         </>
     );

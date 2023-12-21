@@ -7,12 +7,10 @@ import {useState} from "react";
 
 const MainLayout = () => {
 
-    const [value , setValue]=useState("3")
-
     return (
         <div className={Styles.layout}>
             <Header/>
-            <Outlet value={value} set={setValue}/>
+            <Outlet/>
             <BottomNavigation/>
         </div>
     );
