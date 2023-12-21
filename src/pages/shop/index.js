@@ -12,7 +12,6 @@ import Women from '../../assets/icons/womensShoeCardIcon'
 import Button from '../../components/button/index'
 import ServicesButton from '../../components/LorgServicesButton'
 
-
 const data =[
    { subTitle:" 68 ", title:" پوشاک مردانه ", Icon:Tshirt},
    { subTitle:" 25 ", title:" زیورالات ", Icon:Jewelry},

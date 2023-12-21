@@ -2,7 +2,7 @@ import Styles from './input.module.css'
 import {useState} from "react";
 
 const Input = ({type, placeholder, maxLength, className, onClick}) => {
-
+    
     const [message, setMessage] = useState("");
     const handleClick = () => {
         setMessage("");
@@ -10,7 +10,6 @@ const Input = ({type, placeholder, maxLength, className, onClick}) => {
     const handleChange = (event) => {
         setMessage(event.target.value)
     }
-
 
     return (
         <>

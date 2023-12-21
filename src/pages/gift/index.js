@@ -3,8 +3,6 @@ import Input from '../../components/input/index'
 import { text } from '@fortawesome/fontawesome-svg-core';
 import Telephon from '../../assets/icons/telephon'
 import Button from '../../components/button'
-import Back from '../../assets/icons/back-card-icon'
-
 const GiftPage = () => {
     return (
         <div className={Styles.body}>
@@ -16,7 +14,7 @@ const GiftPage = () => {
                         <Input className={Styles.Input} type={text} placeholder=" نام و نام خانوادگی " />
                     </div>
                     <div className={Styles.parentinput}>
-                        <Input className={Styles.Input2} type={Number} placeholder=" 98 _ _ _ _ _ _ _ _ _ _ _ " />
+                        <Input className={Styles.Input2} type={Number} placeholder=" 98 _ _ _ _ _ _ _ _ _ _ _ "  />
                         <button className={Styles.button}><Telephon className={Styles.Telephon}/></button>
                     </div>
                     <h3 className={Styles.name}> اسم و شماره تماس کسی که می خوای بهش کادو بدی رو وارد کن </h3>
