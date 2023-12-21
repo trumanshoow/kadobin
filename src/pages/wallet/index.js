@@ -11,7 +11,7 @@ const WalletPage = () => {
             </div>
             <div>
                 <div></div>
-                <img src={require("../../assets/image/wallet.png")}/>
+                <img src={require("../../assets/image/wallet.png")} alt={#}/>
             </div>
             <div>
 
