@@ -4,7 +4,12 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: red;
+}
+.WrapperOutlet {
+    width: 100%;
     padding-top: 2.5rem;
-    padding-bottom: 5rem;
-    background-color: var(--babyBg);
+    padding-bottom: 6rem;
+    overflow-y: scroll;
+    height: 100vh;
 }

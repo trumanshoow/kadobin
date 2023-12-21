@@ -10,7 +10,9 @@ const MainLayout = () => {
     return (
         <div className={Styles.layout}>
             <Header/>
-            <Outlet/>
+            <div className={Styles.WrapperOutlet}>
+                <Outlet/>
+            </div>
             <BottomNavigation/>
         </div>
     );
