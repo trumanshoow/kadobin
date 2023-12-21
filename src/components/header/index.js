@@ -8,16 +8,12 @@ const setting = [
     {path: "/shop", className: Styles.gray, text:'فروشگاه کادوبین'},
     {path: "/wallet", className: Styles.gray, text:'کیف پول'},
     {path: "/dreams", className: Styles.white, text:'آرزوها'},
-    {path: "/gift", className: Styles.gray, text:'هدیه ها'},
+    {path: "/gift", className: Styles.white, text:''},
 ]
 const Header = ({title}) => {
-    const Location = useLocation()
 
-    // useEffect({
-    //
-    // }[Location.pathname])
+    const Location = useLocation()
     console.log(Location.pathname)
-    // eslint-disable-next-line array-callback-return
     const handelSetting = setting.find((item) => {
         if (item.path === Location.pathname)
             return [
@@ -30,7 +26,6 @@ const Header = ({title}) => {
         <>
             <div className={Styles.header + " " + handelSetting.className}>
                 <div className={Styles.container}>
-                    {/* eslint-disable-next-line react/jsx-pascal-case */}
                     <HamburgMenu_icon width="2.5rem"/>
                     <h2>{handelSetting.text}</h2>
                 </div>

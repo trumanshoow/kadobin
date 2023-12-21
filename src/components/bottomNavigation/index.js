@@ -13,10 +13,10 @@ import Dreams_active_icon from '../../assets/icons/dreamsActiveIcon';
 
 const data = [
     {text: "آرزوها", to: "/dreams", Icon: Dreams_icon, ActiveIcon: Dreams_active_icon},
-    {text: "فروشگاه", to: "/shop", Icon: Shop_icon, ActiveIcon: Shop_active_icon,},
-    {text: "خانه", to: "/", Icon: Home_icon, ActiveIcon: Home_active_icon,},
-    {text: "هدیه", to: "/gift", Icon: Gift_icon, ActiveIcon: Gift_active_icon,},
-    {text: "کیف پول", to: "/wallet", Icon: Wallet_icon, ActiveIcon: Wallet_active_icon,},
+    {text: "فروشگاه", to: "/shop", Icon: Shop_icon, ActiveIcon: Shop_active_icon},
+    {text: "خانه", to: "/", Icon: Home_icon, ActiveIcon: Home_active_icon},
+    {text: "هدیه", to: "/gift", Icon: Gift_icon, ActiveIcon: Gift_active_icon},
+    {text: "کیف پول", to: "/wallet", Icon: Wallet_icon, ActiveIcon: Wallet_active_icon},
 ]
 const BottomNavigation = () => {
     return (
@@ -27,7 +27,6 @@ const BottomNavigation = () => {
                         <MenuLink
                             key={index}
                             {...item}
-                            // selected={item.to === url}
                         />
                     )
                 }

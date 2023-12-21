@@ -6,7 +6,7 @@ const ServicesButton = ({Icon ,text}) => {
         <>
             <div className={Styles.text_icon_Wrapper}>
                 <div className={Styles.boxes}>
-                    <Icon width='1.8rem'/>
+                    <Icon width='1.5rem'/>
                 </div>
                 <span>{text}</span>
             </div>

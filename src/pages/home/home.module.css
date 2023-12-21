@@ -4,6 +4,7 @@
 }
 
 .section {
+    width: 100%;
     background-color: white;
     height: 19rem;
     border-radius: 0 0 3rem 3rem;
