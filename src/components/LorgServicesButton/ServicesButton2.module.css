@@ -11,10 +11,12 @@
 }
 .title {
     font-size: 1rem;
+    margin: 0;
 }
 
 .subTitle{
     font-size: .4rem;
+    margin: 0rem 0rem 2rem 0rem;
 }
 .textIconWrapper {
     display: flex;
