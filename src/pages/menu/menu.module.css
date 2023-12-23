@@ -1,17 +1,11 @@
-.body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 100vh;
-    background-color: #714fee;
-}
 .continer{
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 80%;
+    width: 100%;
     height: 100vh;
+    justify-content: center;
+    background-color: #714fee;
 }
 .User{
     margin-top: 1rem;
@@ -43,6 +37,7 @@
     border: .1rem solid #f4d32f;
     border-radius: .4rem;
     padding: .5rem;
+    margin: 0 0 1rem 0;
 }
 .Profile{
     padding:0 .3rem 0 0;
@@ -50,13 +45,17 @@
     color: #f4d32f;
 }
 .ParentIcon{
-    width: 100%;
+    width: 15rem;
     display: flex;
     flex-direction: column;
     align-items: end;
+    border-bottom: 1px solid white;
 }
 .ServicesButton{
     font-size: 1rem;
     color: black;
     background-color: black;
+}
+.shans{
+  
 }

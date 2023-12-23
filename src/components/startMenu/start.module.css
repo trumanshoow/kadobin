@@ -4,3 +4,10 @@
 .NavLink{
     text-decoration: none;
 }
+.Icon{
+    padding: 0 0 0 1rem;
+}
+.Page{
+    font-size: .6rem;
+    color: white;
+}
