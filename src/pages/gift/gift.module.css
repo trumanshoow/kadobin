@@ -9,12 +9,13 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 2rem;
 }
 .whiteSection{
     width: 100%;
     background-color: white;
     border-radius: 0 0 4rem 4rem ;
-    height: 32rem;
+    height: 36rem;
 }
 .kadoImg{
     width: 13rem;
@@ -25,10 +26,11 @@
 }
 .Input{
     background-color: #f3f3f3;
+
 }
 .Input:focus{
     outline:none;
-    }
+}
 .Input2{
     margin: .5rem 0 0 0;
     background-color: #f3f3f3;
@@ -43,7 +45,7 @@
     height: 3rem;
     margin: .5rem 0 0 1.1rem;
     border-radius: 1rem;
-    background-color: blueviolet;
+    background-color: var(--babyPurple);
     border: none;
 }
 .parentInput{
@@ -65,6 +67,6 @@
     box-shadow: none;
 }
 .Telephone {
-    width: 1.6rem;
-    margin-top: 0.5rem;
+    width: 1.3rem;
+    margin-top: 0.6rem;
 }
