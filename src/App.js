@@ -14,6 +14,7 @@ import './styles/variable.css';
 import './styles/fonts.css';
 import './styles/global.css';
 import DreamApp from "./pages/dreamAdd";
+import Menu from "./pages/menu";
 
 const App = () => {
     return (
@@ -33,6 +34,9 @@ const App = () => {
                     <Route path="/dreams" element={<Dreams/>}/>
                     <Route path="/dreams/addwish" element={<DreamApp/>}/>
                 </Route>
+            </Routes>
+            <Routes>
+                <Route path="/Menu" element={<Menu/>}/>
             </Routes>
         </Router>
 

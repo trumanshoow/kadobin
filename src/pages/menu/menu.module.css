@@ -1,0 +1,62 @@
+.body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #714fee;
+}
+.continer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    height: 100vh;
+}
+.User{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 6rem;
+    height: 6rem;
+    background-color: #ffffff;
+    border-radius: 50%;
+    border: .5rem solid #f7e13d;
+    outline: .5rem solid #d2b160;
+}
+.IconUser{
+    width: 40%;
+    height: 10rem;
+}
+.UserName{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ProfileParent{
+    width: 4rem;
+    height: .6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: .1rem solid #f4d32f;
+    border-radius: .4rem;
+    padding: .5rem;
+}
+.Profile{
+    padding:0 .3rem 0 0;
+    font-size: .6rem;
+    color: #f4d32f;
+}
+.ParentIcon{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+.ServicesButton{
+    font-size: 1rem;
+    color: black;
+    background-color: black;
+}
