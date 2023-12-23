@@ -14,42 +14,42 @@ import H from "../../assets/icons/dreams_icon"
 const Menu = () => {
 
     const data = [
-        { to: "/",  title: " خانه ", Icon:A},
-        { to: "/shop",  title: " فروشگاه " , Icon:B},
-        { to: "/dreams",  title: " آرزوها " , Icon:C},
-        { to: "/wallet",  title: " کیف پول " , Icon:D},
-        { to: "/gift",  title: " هدیه " , Icon:E},
-        { to: "/#",  title: " درباره ما " , Icon:F},
-        { to: "/#",  title: " قوانین و مقررات " , Icon:G},
-        { to: "/#", title: " خروج " , Icon:H},
+        { to: "/", title: " خانه ", Icon: D },
+        { to: "/shop", title: " فروشگاه ", Icon: E },
+        { to: "/dreams", title: " آرزوها ", Icon: H },
+        { to: "/wallet", title: " کیف پول ", Icon: G },
+        { to: "/gift", title: " هدیه ", Icon: F },
+        { to: "/#", title: " درباره ما ", Icon: A },
+        { to: "/#", title: " قوانین و مقررات ", Icon: C },
+        { to: "/#", title: " خروج ", Icon: B },
     ]
 
     return (
         <>
-            <div className={Styles.body}>
-                <div className={Styles.continer}>
-                    <div className={Styles.User}>
-                        <User className={Styles.IconUser} />
+            <div className={Styles.continer}>
+                <div className={Styles.User}>
+                    <User className={Styles.IconUser} />
+                </div>
+                <div className={Styles.UserName}>
+                    <h4>
+                        علیرضا حسینی
+                    </h4>
+                    <div className={Styles.ProfileParent}>
+                        <span className={Styles.Profile}> پروفایل </span>
+                        <UserAdd />
                     </div>
-                    <div className={Styles.UserName}>
-                        <h4>
-                            علیرضا حسینی
-                        </h4>
-                        <div className={Styles.ProfileParent}>
-                            <span className={Styles.Profile}> پروفایل </span>
-                            <UserAdd />
-                        </div>
-                    </div>
-                    <div className={Styles.ParentIcon}>
-                        {
-                            data.map((item, index) =>
+                </div>
+                <div className={Styles.ParentIcon}>
+                    {
+                        data.map((item, index) => (
+                            <div className={Styles.shans}>
                                 <StartMenu className={Styles.Pages}
                                     key={index}
                                     {...item}
                                 />
-                            )
-                        }
-                    </div>
+                            </div>
+                        ))
+                    }
                 </div>
             </div>
         </>
