@@ -1,7 +1,7 @@
 import Styles from "./menu.module.css"
 import User from "../../assets/icons/icons8UserMale"
 import UserAdd from "../../assets/icons/icons8MaleUser"
-import StartMenu from "../../components/startMenu"
+import StartMenu from "../../components/startMenu/index"
 import A from "../../assets/icons/icons8About"
 import B from "../../assets/icons/icons8LogoutRounded"
 import C from "../../assets/icons/icons8Rules"
@@ -14,14 +14,14 @@ import H from "../../assets/icons/dreams_icon"
 const Menu = () => {
 
     const data = [
-        {to Icon: A, title: " خانه " },
-        { Icon: B, title: " فروشگاه " },
-        { Icon: C, title: " آرزوها " },
-        { Icon: D, title: " کیف پول " },
-        { Icon: E, title: " هدیه " },
-        { Icon: F, title: " درباره ما " },
-        { Icon: G, title: " قوانین و مقررات " },
-        { Icon: H, title: " خروج " },
+        { to: "/",  title: " خانه ", Icon:A},
+        { to: "/shop",  title: " فروشگاه " , Icon:B},
+        { to: "/dreams",  title: " آرزوها " , Icon:C},
+        { to: "/wallet",  title: " کیف پول " , Icon:D},
+        { to: "/gift",  title: " هدیه " , Icon:E},
+        { to: "/#",  title: " درباره ما " , Icon:F},
+        { to: "/#",  title: " قوانین و مقررات " , Icon:G},
+        { to: "/#", title: " خروج " , Icon:H},
     ]
 
     return (
@@ -42,10 +42,10 @@ const Menu = () => {
                     </div>
                     <div className={Styles.ParentIcon}>
                         {
-                            data.map((item, index) => 
-                            <StartMenu
-                                   key={index}
-                                   {...item}
+                            data.map((item, index) =>
+                                <StartMenu className={Styles.Pages}
+                                    key={index}
+                                    {...item}
                                 />
                             )
                         }

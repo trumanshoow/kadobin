@@ -1,16 +1,19 @@
 import { NavLink } from "react-router-dom";
+import Styles from "./start.module.css"
 
 
-const StartMenu = ({Icon ,title ,to}) => {
+const StartMenu = ({ Icon, title, to }) => {
     return (
         <>
-            <NavLink to={to} >
-                <div>
-                    <Icon />
+            <NavLink to={to} className={Styles.NavLink}>
+                <div className={Styles.Parent}>
+                    <span>
+                        {title}
+                    </span>
+                    <div>
+                        <Icon style={{ width: "1rem", }} />
+                    </div>
                 </div>
-                <span>
-                    {title}
-                </span>
             </NavLink>
         </>
     )

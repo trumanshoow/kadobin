@@ -1,0 +1,6 @@
+.Parent{
+    display: flex;
+}
+.NavLink{
+    text-decoration: none;
+}
