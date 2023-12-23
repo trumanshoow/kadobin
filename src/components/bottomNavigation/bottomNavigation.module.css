@@ -22,12 +22,12 @@
     flex-direction: column;
     align-items: center;
     color: white;
+    margin-top: 1.3rem;
 }
 .TextWrapper {
     width: 100%;
     display: flex;
     justify-content: center;
-    margin-top:.4rem;
 }
 
 .activeNavLink {
@@ -40,23 +40,31 @@
 .activeNavLink:before {
     content: '';
     position: absolute;
-    width: 3rem;
-    height: 3rem;
+    bottom: 1rem;
+    width: 2.7rem;
+    height: 2.7rem;
     border-radius: 50%;
-    background-color: #ffffff60;
-    backdrop-filter: blur(10px);
+    background-color: rgb(255 255 255 / 0.3);
+    backdrop-filter: blur(3px);
+    z-index: -1;
 }
 
 .activeNavLink:after {
     content: '';
-    background-color: yellow;
+    background-color: var(--babyYellow);
+    border-radius: 50% 50% 0 0;
     width: 3.5rem;
     height: 3.5rem;
     position: absolute;
-    bottom: -100%;
-    /*bottom: -3.5rem;*/
+    /*bottom: -100%;*/
+    bottom: -2rem;
+    z-index: -2;
+
 }
 
 .activeNavLink p {
     color: #000;
+}
+.paddingIcon {
+    padding-left: .3rem;
 }

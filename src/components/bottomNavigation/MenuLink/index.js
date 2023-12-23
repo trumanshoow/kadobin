@@ -11,7 +11,7 @@ const MenuLink = ({to, Icon, ActiveIcon, text}) => {
             >
                 {({isActive})=> (
                     <>
-                        {isActive ? <ActiveIcon/> : <Icon width={"1.3rem"}/>}
+                        {isActive ? <ActiveIcon width="1.2rem"/> : <Icon width="1.2rem" className={Styles.paddingIcon}/>}
                         <div className={Styles.TextWrapper}>
                             <p>{text}</p>
                         </div>

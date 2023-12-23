@@ -1,8 +1,8 @@
-const DreamsActiveIcon = (props) => {
+const DreamsActiveIcon = ({width , className}) => {
     return (
         <>
             <svg id="Group_377" dataName="Group 377" xmlns="http://www.w3.org/2000/svg"
-                 viewBox="0 0 21.862 23.602" {...props}>
+                 viewBox="0 0 21.862 23.602" width={width} className={className}>
                 <path id="Path_6114" dataName="Path 6114"
                       d="M17.341,3.541V14.374a2.883,2.883,0,0,0-1.043.655,2.916,2.916,0,0,0-2.11-.841,3.1,3.1,0,0,0-3.161,3.04v.113a3.572,3.572,0,0,0,.946,2.32l1.9,1.892H3.662A3.1,3.1,0,0,1,.5,18.514V3.654A3.092,3.092,0,0,1,3.541.5H14.188A3.092,3.092,0,0,1,17.341,3.541Z"
                       transform="translate(-0.096 -0.096)" fill="#fff"/>

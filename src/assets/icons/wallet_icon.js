@@ -1,9 +1,9 @@
 import React from 'react';
 
-const WalletIcon = (props) => {
+const WalletIcon = ({width}) => {
     return (
         <>
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22.735 22.735" {...props}>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22.735 22.735" width={width}>
                 <g id="icons8_wallet" transform="translate(0.5 0.5)">
                     <path id="Path_5786" dataNama="Path 5786"
                           d="M21.112,24.612H6.622A4.127,4.127,0,0,1,2.5,20.49V5.5H21.112a4.127,4.127,0,0,1,4.122,4.122V20.49A4.127,4.127,0,0,1,21.112,24.612ZM3.5,6.5V20.49a3.126,3.126,0,0,0,3.122,3.122h14.49a3.126,3.126,0,0,0,3.122-3.122V9.622A3.126,3.126,0,0,0,21.112,6.5Z"
