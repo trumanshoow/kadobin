@@ -3,6 +3,7 @@
 }
 .NavLink{
     text-decoration: none;
+    width: 100%;
 }
 .Icon{
     padding: 0 0 0 1rem;
@@ -10,4 +11,11 @@
 .Page{
     font-size: .6rem;
     color: white;
+}
+.ali{
+    width: 100%;
+    border-bottom: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: end;
 }

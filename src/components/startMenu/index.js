@@ -6,12 +6,14 @@ const StartMenu = ({ Icon, title, to }) => {
     return (
         <>
             <NavLink to={to} className={Styles.NavLink}>
-                <div className={Styles.Parent}>
-                    <span className={Styles.Page}>
-                        {title}
-                    </span>
-                    <div className={Styles.Icon}>
-                        <Icon style={{ width: "1rem", }} />
+                <div className={Styles.ali}>
+                    <div className={Styles.Parent}>
+                        <span className={Styles.Page}>
+                            {title}
+                        </span>
+                        <div className={Styles.Icon}>
+                            <Icon width="1rem" />
+                        </div>
                     </div>
                 </div>
             </NavLink>
