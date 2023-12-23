@@ -42,12 +42,10 @@ const Menu = () => {
                 <div className={Styles.ParentIcon}>
                     {
                         data.map((item, index) => (
-                            <div className={Styles.shans}>
                                 <StartMenu className={Styles.Pages}
                                     key={index}
                                     {...item}
                                 />
-                            </div>
                         ))
                     }
                 </div>
