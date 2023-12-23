@@ -26,28 +26,30 @@ const Menu = () => {
 
     return (
         <>
-            <div className={Styles.continer}>
-                <div className={Styles.User}>
-                    <User className={Styles.IconUser} />
-                </div>
-                <div className={Styles.UserName}>
-                    <h4>
-                        علیرضا حسینی
-                    </h4>
-                    <div className={Styles.ProfileParent}>
-                        <span className={Styles.Profile}> پروفایل </span>
-                        <UserAdd />
+            <div className={Styles.body}>
+                <div className={Styles.container}>
+                    <div className={Styles.User}>
+                        <User className={Styles.IconUser} />
                     </div>
-                </div>
-                <div className={Styles.ParentIcon}>
-                    {
-                        data.map((item, index) => (
-                                <StartMenu className={Styles.Pages}
-                                    key={index}
-                                    {...item}
-                                />
-                        ))
-                    }
+                    <div className={Styles.UserName}>
+                        <h4>
+                            علیرضا حسینی
+                        </h4>
+                        <div className={Styles.ProfileParent}>
+                            <span className={Styles.Profile}> پروفایل </span>
+                            <UserAdd />
+                        </div>
+                    </div>
+                    <div className={Styles.ParentIcon}>
+                        {
+                            data.map((item, index) => (
+                                    <StartMenu
+                                        key={index}
+                                        {...item}
+                                    />
+                            ))
+                        }
+                    </div>
                 </div>
             </div>
         </>
