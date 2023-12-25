@@ -3,7 +3,21 @@ import Input from '../../components/input/index'
 import { text } from '@fortawesome/fontawesome-svg-core';
 import Telephon from '../../assets/icons/telephon'
 import Button from '../../components/button'
+import {useEffect} from "react";
+import {setPageData} from "../../redux/slices/pageData";
+import {useDispatch} from "react-redux";
 const GiftPage = () => {
+    const dispatch = useDispatch();
+
+    useEffect(() => {
+        dispatch(
+            setPageData({
+                title: "هدیه",
+                headerColor: "white"
+            })
+        )
+    }, []);
+
     return (
         <div className={Styles.body}>
             <div className={Styles.whiteSection}>
@@ -14,7 +28,7 @@ const GiftPage = () => {
                         <Input className={Styles.Input} type={text} placeholder=" نام و نام خانوادگی " />
                     </div>
                     <div className={Styles.parentInput}>
-                        <Input className={Styles.Input2} type={Number} placeholder=" 98 _ _ _ _ _ _ _ _ _ _ _ "  />
+                        <Input className={Styles.Input2} type={Number} placeholder=" +98 _ _ _ _ _ _  _ _ _ _ "/>
                         <button className={Styles.button}><Telephon className={Styles.Telephone}/></button>
                     </div>
                     <h3 className={Styles.name}> اسم و شماره تماس کسی که می خوای بهش کادو بدی رو وارد کن </h3>

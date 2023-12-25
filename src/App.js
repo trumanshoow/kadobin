@@ -15,31 +15,34 @@ import './styles/fonts.css';
 import './styles/global.css';
 import DreamApp from "./pages/dreamAdd";
 import Menu from "./pages/menu";
+import {Provider} from "react-redux"
+import store from "./redux/store"
 
 const App = () => {
     return (
-        <Router>
-            <Routes>
-                <Route path="/terms" element={<Terms/>}/>
-                <Route path="/login" element={<LayoutLogin/>}>
-                    <Route path="/login/mobile" element={<Mobile/>}/>
-                    <Route path="/login/code" element={<Code/>}/>
-                </Route>
+        <Provider store={store}>
+            <Router>
+                <Routes>
+                    <Route path="/terms" element={<Terms/>}/>
+                    <Route path="/login" element={<LayoutLogin/>}>
+                        <Route path="/login/mobile" element={<Mobile/>}/>
+                        <Route path="/login/code" element={<Code/>}/>
+                    </Route>
 
-                <Route path="/" element={<MainLayout/>}>
-                    <Route path="/" element={<Home/>}/>
-                    <Route path="/shop" element={<Shop/>}/>
-                    <Route path="/gift" element={<Gift/>}/>
-                    <Route path="/wallet" element={<Wallet/>}/>
-                    <Route path="/dreams" element={<Dreams/>}/>
-                    <Route path="/dreams/addwish" element={<DreamApp/>}/>
-                </Route>
-            </Routes>
-            <Routes>
-                <Route path="/Menu" element={<Menu/>}/>
-            </Routes>
-        </Router>
-
+                    <Route path="/" element={<MainLayout/>}>
+                        <Route path="/" element={<Home/>}/>
+                        <Route path="/shop" element={<Shop/>}/>
+                        <Route path="/gift" element={<Gift/>}/>
+                        <Route path="/wallet" element={<Wallet/>}/>
+                        <Route path="/dreams" element={<Dreams/>}/>
+                        <Route path="/dreams/addwish" element={<DreamApp/>}/>
+                    </Route>
+                </Routes>
+                <Routes>
+                    <Route path="/Menu" element={<Menu/>}/>
+                </Routes>
+            </Router>
+        </Provider>
     );
 };
 
