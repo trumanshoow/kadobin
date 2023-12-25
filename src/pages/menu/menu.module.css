@@ -13,12 +13,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-<<<<<<< Updated upstream
     height: 100vh;
-=======
-    width: 100%;
-    height: 115vh;
->>>>>>> Stashed changes
     justify-content: center;
 }
 .User{

@@ -26,40 +26,8 @@ const Menu = () => {
     ]
 
     return (
-<<<<<<< Updated upstream
-        <>
-            <div className={Styles.body}>
-                <div className={Styles.container}>
-                    <div className={Styles.User}>
-                        <User className={Styles.IconUser} />
-                    </div>
-                    <div className={Styles.UserName}>
-                        <h4>
-                            علیرضا حسینی
-                        </h4>
-                        <div className={Styles.ProfileParent}>
-                            <span className={Styles.Profile}> پروفایل </span>
-                            <UserAdd />
-                        </div>
-                    </div>
-                    <div className={Styles.ParentIcon}>
-                        {
-                            data.map((item, index) => (
-                                    <StartMenu
-                                        key={index}
-                                        {...item}
-                                    />
-                            ))
-                        }
-                    </div>
-=======
-            <div className={Styles.continer}>
-                <div className={Styles.Header}>
-                    <Delete className={Styles.IconDelete} />
-                    <p className={Styles.Menu}>
-                        منو
-                    </p>
-                </div>
+        <div className={Styles.body}>
+            <div className={Styles.container}>
                 <div className={Styles.User}>
                     <User className={Styles.IconUser} />
                 </div>
@@ -81,15 +49,45 @@ const Menu = () => {
                             />
                         ))
                     }
->>>>>>> Stashed changes
                 </div>
-                <p className={Styles.software}>
-                    نرم افزار هدیه کادوبین
-                </p>
-                <p className={Styles.prescription}>
-                    نسخه 10.0
-                </p>
+                <div className={Styles.continer}>
+                    <div className={Styles.Header}>
+                        <Delete className={Styles.IconDelete} />
+                        <p className={Styles.Menu}>
+                            منو
+                        </p>
+                    </div>
+                    <div className={Styles.User}>
+                        <User className={Styles.IconUser} />
+                    </div>
+                    <div className={Styles.UserName}>
+                        <h4>
+                            علیرضا حسینی
+                        </h4>
+                        <div className={Styles.ProfileParent}>
+                            <span className={Styles.Profile}> پروفایل </span>
+                            <UserAdd />
+                        </div>
+                    </div>
+                    <div className={Styles.ParentIcon}>
+                        {
+                            data.map((item, index) => (
+                                <StartMenu
+                                    key={index}
+                                    {...item}
+                                />
+                            ))
+                        }
+                    </div>
+                    <p className={Styles.software}>
+                        نرم افزار هدیه کادوبین
+                    </p>
+                    <p className={Styles.prescription}>
+                        نسخه 10.0
+                    </p>
+                </div>
             </div>
+        </div>
     )
 }
 export default Menu;
