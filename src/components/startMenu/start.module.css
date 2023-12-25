@@ -3,19 +3,27 @@
 }
 .NavLink{
     text-decoration: none;
-    width: 100%;
 }
 .Icon{
+<<<<<<< Updated upstream
     padding-bottom: 1rem;
+=======
+    padding: 0 1rem 0 1rem;
+>>>>>>> Stashed changes
 }
 .Page{
     font-size: .6rem;
     color: white;
 }
+<<<<<<< Updated upstream
 .wrapper{
     width: 100%;
+=======
+.ali{
+>>>>>>> Stashed changes
     border-bottom: 1px solid white;
     display: flex;
-    justify-content: center;
+    justify-content: end;
     align-items: end;
+    margin-top: .6rem;
 }

@@ -13,7 +13,12 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+<<<<<<< Updated upstream
     height: 100vh;
+=======
+    width: 100%;
+    height: 115vh;
+>>>>>>> Stashed changes
     justify-content: center;
 }
 .User{
@@ -25,8 +30,8 @@
     height: 6rem;
     background-color: #ffffff;
     border-radius: 50%;
-    border: .5rem solid #f7e13d;
-    outline: .5rem solid #d2b160;
+    border: .3rem solid #f7e13d;
+    outline: .3rem solid #d2b160;
 }
 .IconUser{
     width: 40%;
@@ -46,7 +51,6 @@
     border: .1rem solid #f4d32f;
     border-radius: .4rem;
     padding: .5rem;
-    margin: 0 0 1rem 0;
 }
 .Profile{
     padding:0 .3rem 0 0;
@@ -55,4 +59,28 @@
 }
 .ParentIcon{
     width: 100%;
+    max-width: 768px;
+}
+.IconDelete{
+    width: 2rem;
+}
+.software{
+    font-size: .4rem;
+    margin-top: 2rem;
+    color: white;
+}
+.prescription{
+    font-size: .4rem;
+    margin: 0;
+    color: white;
+}
+.Header{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Menu{
+    color: white;
+    font-size: .7rem;
 }

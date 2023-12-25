@@ -62,6 +62,7 @@
     background-color: #f3f3f3;
     box-shadow: 0px 7px 4px gainsboro;
     margin-top: -1.5rem;
+    color: darkgray;
 }
 .Button:active{
     box-shadow: none;
