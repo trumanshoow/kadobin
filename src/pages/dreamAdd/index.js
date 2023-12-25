@@ -1,4 +1,5 @@
 import React, {useEffect, useRef} from 'react';
+import Styles from "./dreamAdd.module.css";
 import {setPageData} from "../../redux/slices/pageData";
 import {useDispatch} from "react-redux";
 import Back from "../../assets/icons/back-card-icon";
@@ -13,7 +14,7 @@ const DreamAdd = () => {
             setPageData({
                 title: "ثبت آرزو",
                 subtitle: "09032175822",
-                subTitleProps: {style:{color: "#000" , display: "flex" , flexDirection: "column"}},
+                subTitleProps: {className: Styles.subtitle},
                 headerColor: "white",
                 icon: <Back width="2.5rem"/>
             })
