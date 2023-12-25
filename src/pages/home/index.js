@@ -6,7 +6,9 @@ import Bill_card_icon from '../../assets/icons/bill_card_icon'
 import Magnetic_card from '../../assets/icons/magnetic_card_icon'
 import Sim_card_icon from '../../assets/icons/sim_card_icon'
 import Radio_tower_card_icon from '../../assets/icons/radio_tower_card_icon'
-
+import {useEffect} from "react";
+import {useDispatch} from "react-redux";
+import {setPageData} from "../../redux/slices/pageData";
 
 
 const data = [
@@ -15,7 +17,18 @@ const data = [
     {text: "بسته اینترنت", Icon: Radio_tower_card_icon},
     {text: "خرید شارژ", Icon: Sim_card_icon},
 ]
-const home = () => {
+const Home = () => {
+    const dispatch = useDispatch();
+
+    useEffect(() => {
+        dispatch(
+            setPageData({
+                title: "خانه",
+                headerColor: "white"
+            })
+        )
+    }, []);
+
     return (
         <div className={Styles.body}>
             <div className={Styles.section}>
@@ -44,4 +57,4 @@ const home = () => {
     );
 };
 
-export default home;
+export default Home;

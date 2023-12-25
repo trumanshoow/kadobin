@@ -1,7 +1,7 @@
 import Styles from './input.module.css'
 import {useState} from "react";
 
-const Input = ({type, placeholder, maxLength, className, onClick}) => {
+const Input = ({type, placeholder, maxLength, className , onClick}) => {
     
     const [message, setMessage] = useState("");
     const handleClick = () => {
@@ -17,7 +17,7 @@ const Input = ({type, placeholder, maxLength, className, onClick}) => {
                    className={className + " " + Styles.input}
                    onClick={() => {
                        handleClick();
-                       onClick();
+                       onclick();
                    }}
             />
         </>

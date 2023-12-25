@@ -1,10 +1,14 @@
-import Styles from "./dream.module.css"
-import Button from "../../components/button";
 import {useState} from "react";
+import {useNavigate} from "react-router-dom";
+import Button from "../../components/button";
+import Styles from "./dream.module.css";
+
+
 
 const DreamPage = () => {
+    const navigation = useNavigate();
 
-    const [value , setValue]=useState(3)
+    const [value , setValue] = useState(3)
 
     return (
         <>
@@ -17,11 +21,11 @@ const DreamPage = () => {
                      </div>
                  </div>
                  <div className={Styles.container}>
-                        <Button text="آرزو کن" className={Styles.Btn}></Button>
+                        <Button onClick={()=> navigation("/dreams/addwish")} text="آرزو کن" className={Styles.Btn}></Button>
                          <div className={Styles.subtitle}>
                              <span>یادت باشه که آرزو هات قراره توسط کسایی که بهت می خوان کادو بدن قراره برآورده بشه ، پس چیزی آرزو نکن که از توانشون خارج</span>
                          </div>
-                        <button className={Styles.dreamCounter}>هنوز <span className={Styles.valueSpan}>{value}</span> تا آرزوی دیگه داری</button>
+                        <button  className={Styles.dreamCounter}>هنوز <span className={Styles.valueSpan}>{value}</span> تا آرزوی دیگه داری</button>
                 </div>
 
              </div>
