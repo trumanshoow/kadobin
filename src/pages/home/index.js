@@ -9,6 +9,7 @@ import Radio_tower_card_icon from '../../assets/icons/radio_tower_card_icon'
 import {useEffect} from "react";
 import {useDispatch} from "react-redux";
 import {setPageData} from "../../redux/slices/pageData";
+import HamburgMenu_icon from "../../assets/icons/hamburgMenu_icon";
 
 
 const data = [
@@ -24,7 +25,8 @@ const Home = () => {
         dispatch(
             setPageData({
                 title: "خانه",
-                headerColor: "white"
+                headerColor: "white",
+                icon: <HamburgMenu_icon width='2.5rem'/>,
             })
         )
     }, []);

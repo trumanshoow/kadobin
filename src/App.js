@@ -1,22 +1,22 @@
-import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
 import React from 'react';
-import Mobile from './pages/login/mobile'
-import Code from "./pages/login/code";
+import './styles/fonts.css';
+import './styles/global.css';
+import './styles/variable.css';
 import Home from "./pages/home";
 import Shop from "./pages/shop";
 import Gift from "./pages/gift";
+import Menu from "./pages/menu";
+import store from "./redux/store";
+import Terms from "./pages/terms";
 import Wallet from "./pages/wallet";
 import Dreams from "./pages/dreams";
-import LayoutLogin from "./layout/login";
+import {Provider} from "react-redux";
+import Code from "./pages/login/code";
 import MainLayout from "./layout/main";
-import Terms from "./pages/terms";
-import './styles/variable.css';
-import './styles/fonts.css';
-import './styles/global.css';
-import DreamApp from "./pages/dreamAdd";
-import Menu from "./pages/menu";
-import {Provider} from "react-redux"
-import store from "./redux/store"
+import DreamAdd from "./pages/dreamAdd";
+import LayoutLogin from "./layout/login";
+import Mobile from './pages/login/mobile';
+import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
 
 const App = () => {
     return (
@@ -35,7 +35,7 @@ const App = () => {
                         <Route path="/gift" element={<Gift/>}/>
                         <Route path="/wallet" element={<Wallet/>}/>
                         <Route path="/dreams" element={<Dreams/>}/>
-                        <Route path="/dreams/addwish" element={<DreamApp/>}/>
+                        <Route path="/dreams/addwish" element={<DreamAdd/>}/>
                     </Route>
                 </Routes>
                 <Routes>

@@ -1,7 +1,10 @@
-import {useState} from "react";
+import {useEffect, useState} from "react";
 import {useNavigate} from "react-router-dom";
 import Button from "../../components/button";
 import Styles from "./dream.module.css";
+import {useDispatch} from "react-redux";
+import {setPageData} from "../../redux/slices/pageData";
+import HamburgMenu_icon from "../../assets/icons/hamburgMenu_icon";
 
 
 
@@ -9,6 +12,19 @@ const DreamPage = () => {
     const navigation = useNavigate();
 
     const [value , setValue] = useState(3)
+
+    const dispatch = useDispatch();
+
+    useEffect(() => {
+        dispatch(
+            setPageData({
+                title: "آرزو",
+                headerColor: "white",
+                icon: <HamburgMenu_icon width='2.5rem'/>,
+            })
+        )
+    }, []);
+
 
     return (
         <>

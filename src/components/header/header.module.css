@@ -12,7 +12,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: var(--babyPurple);
+    color: black;
     font-size: .5rem;
     font-family: 'mainFont-400';
 }
@@ -26,3 +26,4 @@
 .gray {
     background-color: #44277800;
 }
+
