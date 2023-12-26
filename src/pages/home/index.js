@@ -10,6 +10,7 @@ import {useEffect} from "react";
 import {useDispatch} from "react-redux";
 import {setPageData} from "../../redux/slices/pageData";
 import HamburgMenu_icon from "../../assets/icons/hamburgMenu_icon";
+import MainLayout from "../../layout/main";
 
 
 const data = [
@@ -32,30 +33,32 @@ const Home = () => {
     }, []);
 
     return (
-        <div className={Styles.body}>
-            <div className={Styles.section}>
-                <div className={Styles.container}>
-                    <div className={Styles.kadoImg}>
-                        <img src={require("../../assets/image/kado.png")} alt="kado"/>
+        <MainLayout>
+            <div className={Styles.body}>
+                <div className={Styles.section}>
+                    <div className={Styles.container}>
+                        <div className={Styles.kadoImg}>
+                            <img src={require("../../assets/image/kado.png")} alt="kado"/>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <div className={Styles.container}>
-                <Button text={'ارسال کادو'}></Button>
-                <div className={Styles.boxWrapper}>
-                    {
-                        data.map((item, index) =>
-                            <ServicesButton
-                                key={index}
-                                {...item}
-                            />
-                        )
-                    }
+                <div className={Styles.container}>
+                    <Button text={'ارسال کادو'}></Button>
+                    <div className={Styles.boxWrapper}>
+                        {
+                            data.map((item, index) =>
+                                <ServicesButton
+                                    key={index}
+                                    {...item}
+                                />
+                            )
+                        }
+                    </div>
+                    <img className={Styles.banner} src={require('../../assets/image/notification-banner.png')} alt=""/>
                 </div>
-                <img className={Styles.banner} src={require('../../assets/image/notification-banner.png')} alt=""/>
             </div>
-        </div>
+        </MainLayout>
     );
 };
 

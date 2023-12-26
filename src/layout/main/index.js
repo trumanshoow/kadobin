@@ -1,20 +1,21 @@
-
 import BottomNavigation from "../../components/bottomNavigation";
 import {Outlet} from "react-router-dom";
 import Styles from "./main.module.css";
 import Header from "../../components/header";
-import {useState} from "react";
+import {Provider} from "../../contexts/layoutData";
 
-const MainLayout = () => {
+const MainLayout = (props) => {
 
     return (
-        <div className={Styles.layout}>
-            <Header/>
-            <div className={Styles.WrapperOutlet}>
-                <Outlet/>
+        <Provider value={props}>
+            <div className={Styles.layout}>
+                <Header/>
+                <div className={Styles.WrapperOutlet}>
+                    <Outlet/>
+                </div>
+                <BottomNavigation/>
             </div>
-            <BottomNavigation/>
-        </div>
+        </Provider>
     );
 };
 

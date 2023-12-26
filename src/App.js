@@ -16,7 +16,7 @@ import MainLayout from "./layout/main";
 import DreamAdd from "./pages/dreamAdd";
 import LayoutLogin from "./layout/login";
 import Mobile from './pages/login/mobile';
-import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
+import {BrowserRouter as Router, Routes, Route, Outlet} from "react-router-dom";
 
 const App = () => {
     return (
@@ -29,14 +29,12 @@ const App = () => {
                         <Route path="/login/code" element={<Code/>}/>
                     </Route>
 
-                    <Route path="/" element={<MainLayout/>}>
-                        <Route path="/" element={<Home/>}/>
-                        <Route path="/shop" element={<Shop/>}/>
-                        <Route path="/gift" element={<Gift/>}/>
-                        <Route path="/wallet" element={<Wallet/>}/>
-                        <Route path="/dreams" element={<Dreams/>}/>
-                        <Route path="/dreams/addwish" element={<DreamAdd/>}/>
-                    </Route>
+                    <Route path="/" element={<Home/>}/>
+                    <Route path="/shop" element={<Shop/>}/>
+                    <Route path="/gift" element={<Gift/>}/>
+                    <Route path="/wallet" element={<Wallet/>}/>
+                    <Route path="/dreams" element={<Dreams/>}/>
+                    <Route path="/dreams/addwish" element={<DreamAdd/>}/>
                 </Routes>
                 <Routes>
                     <Route path="/Menu" element={<Menu/>}/>

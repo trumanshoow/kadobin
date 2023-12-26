@@ -1,7 +1,3 @@
-.subtitle {
-    color: black;
-    display: flex;
-    flex-direction: column;
-
+.title {
+    margin: 0;
 }
-

@@ -12,18 +12,5 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: black;
     font-size: .5rem;
-    font-family: 'mainFont-400';
 }
-.header .hamburgMenu {
-    font-size: 1.3rem;
-}
-.white {
-    background-color: white;
-
-}
-.gray {
-    background-color: #44277800;
-}
-

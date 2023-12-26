@@ -1,18 +1,20 @@
-import Styles from "./header.module.css";
-import {useSelector} from "react-redux";
+import styles from "./header.module.css";
+import {useContext} from "react";
+import layoutData from "../../contexts/layoutData";
 
 
 const Header = () => {
-
-    const pageData = useSelector(x => x.pageData);
+    const layoutDataContext = useContext(layoutData);
 
     return (
         <>
-            <div className={Styles.header} style={{backgroundColor: pageData?.headerColor}}>
-                <div className={Styles.container}>
-                    {pageData?.icon}
-                    <h2 {...pageData?.titleProps}>{pageData?.title??"خوش آمدید"}</h2>
-                    <h4 {...pageData?.subTitleProps}>{pageData?.subtitle}</h4>
+            <div className={styles.header} style={{backgroundColor: layoutDataContext?.headerColor}}>
+                <div className={styles.container}>
+                    {layoutDataContext?.icon}
+                    <div>
+                        <h2 {...layoutDataContext?.titleProps}>{layoutDataContext?.title}</h2>
+                        <h4 {...layoutDataContext?.subTitleProps}>{layoutDataContext?.subtitle}</h4>
+                    </div>
                 </div>
             </div>
         </>
