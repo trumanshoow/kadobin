@@ -41,12 +41,13 @@
     outline:none;
 }
 .button{
-    width: 3rem;
-    height: 3rem;
+    width: 2.7rem;
+    height: 2.6rem;
     margin: .5rem 0 0 1.1rem;
     border-radius: 1rem;
     background-color: var(--babyPurple);
     border: none;
+    box-shadow: 0px 5px 1px 0px #7f5df1;
 }
 .parentInput{
     display: flex;
@@ -54,7 +55,7 @@
 .name{
     font-size: .6rem;
     margin: 2rem 0 2rem 0;
-    color: gainsboro;
+    color:#b7b7b7;
 }
 .Button{
     width: 13rem;

@@ -17,7 +17,7 @@ const GiftPage = () => {
             })
         )
     }, []);
-
+    
     return (
         <div className={Styles.body}>
             <div className={Styles.whiteSection}>
