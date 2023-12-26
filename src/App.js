@@ -12,11 +12,10 @@ import Wallet from "./pages/wallet";
 import Dreams from "./pages/dreams";
 import {Provider} from "react-redux";
 import Code from "./pages/login/code";
-import MainLayout from "./layout/main";
 import DreamAdd from "./pages/dreamAdd";
 import LayoutLogin from "./layout/login";
 import Mobile from './pages/login/mobile';
-import {BrowserRouter as Router, Routes, Route, Outlet} from "react-router-dom";
+import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
 
 const App = () => {
     return (
@@ -28,7 +27,6 @@ const App = () => {
                         <Route path="/login/mobile" element={<Mobile/>}/>
                         <Route path="/login/code" element={<Code/>}/>
                     </Route>
-
                     <Route path="/" element={<Home/>}/>
                     <Route path="/shop" element={<Shop/>}/>
                     <Route path="/gift" element={<Gift/>}/>
