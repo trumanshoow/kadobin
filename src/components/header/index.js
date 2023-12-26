@@ -1,20 +1,33 @@
 import styles from "./header.module.css";
 import {useContext} from "react";
-import layoutData from "../../contexts/layoutData";
+import layoutDataContext from "../../contexts/layoutData";
 
 
 const Header = () => {
-    const layoutDataContext = useContext(layoutData);
+    const layoutData = useContext(layoutDataContext);
 
     return (
         <>
-            <div className={styles.header} style={{backgroundColor: layoutDataContext?.headerColor}}>
-                <div className={styles.container}>
-                    {layoutDataContext?.icon}
+            <div
+                className={styles.header}
+                style={{backgroundColor: layoutData?.headerColor}}
+            >
+                <div
+                    {...layoutData?.containerProps}
+                    className={styles.container}
+                >
+                    {layoutData?.icon}
                     <div>
-                        <h2 {...layoutDataContext?.titleProps}>{layoutDataContext?.title}</h2>
-                        <h4 {...layoutDataContext?.subTitleProps}>{layoutDataContext?.subtitle}</h4>
+                        <h2
+                            {...layoutData?.titleProps}>
+                            {layoutData?.title}
+                        </h2>
+                        <h4
+                            {...layoutData?.subTitleProps}>
+                            {layoutData?.subtitle}
+                        </h4>
                     </div>
+
                 </div>
             </div>
         </>

@@ -1,17 +1,15 @@
 import BottomNavigation from "../../components/bottomNavigation";
-import {Outlet} from "react-router-dom";
-import Styles from "./main.module.css";
 import Header from "../../components/header";
 import {Provider} from "../../contexts/layoutData";
+import Styles from "./main.module.css";
 
-const MainLayout = (props) => {
-
+const MainLayout = ({children, ...props}) => {
     return (
         <Provider value={props}>
             <div className={Styles.layout}>
                 <Header/>
                 <div className={Styles.WrapperOutlet}>
-                    <Outlet/>
+                    {children}
                 </div>
                 <BottomNavigation/>
             </div>

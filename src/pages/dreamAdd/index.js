@@ -20,6 +20,7 @@ const DreamAdd = () => {
             subTitleProps={{className: styles.subtitle}}
             headerColor="white"
             icon={<Back width="2.5rem"/>}
+            containerProps={{className: styles.container}}
         >
             <div>
                 <input
