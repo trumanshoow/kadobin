@@ -12,6 +12,7 @@ import Women from '../../assets/icons/womensShoeCardIcon'
 import Button from '../../components/button/index'
 import ServicesButton from '../../components/LorgServicesButton'
 import MainLayout from '../../layout/main';
+import HamburgMenu_icon from "../../assets/icons/hamburgMenu_icon";
 
 const data = [
    { subTitle: " 68 ", title: " پوشاک مردانه ", Icon: Tshirt },
@@ -28,7 +29,13 @@ const data = [
 const ShopPage = () => {
 
    return (
-      <MainLayout>
+
+      <MainLayout
+          icon={<HamburgMenu_icon width="2.5rem"/>}
+          title="فروشگاه کادوبین"
+          subtitle="انتخاب دسته بندی"
+          headerColor="var(--babyBg)"
+      >
          <div className={Styles.body}>
             <div className={Styles.container}>
                <div className={Styles.boxWrapper}>

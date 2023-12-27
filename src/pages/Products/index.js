@@ -2,6 +2,9 @@ import ProductsData from "../../components/products";
 import styles from "./products.module.css"
 import Input from "../../components/input"
 import Search from "../../assets/icons/Search"
+import HamburgMenu_icon from "../../assets/icons/hamburgMenu_icon";
+import MainLayout from "../../layout/main";
+import Back from "../../assets/icons/back-card-icon";
 
 const Products = () => {
 
@@ -15,6 +18,12 @@ const Products = () => {
     ]
 
     return (
+        <MainLayout
+            icon={<Back width="2.5rem"/>}
+            title="فروشگاه کادوبین"
+            subtitle=""
+            headerColor="var(--babyBg)"
+        >
         <div className={styles.body}>
             <div className={styles.Continer}>
                 <Input 
@@ -34,6 +43,7 @@ const Products = () => {
                 </div>
             </div>
         </div>
+        </MainLayout>
     )
 }
 export default Products;
