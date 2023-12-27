@@ -14,8 +14,9 @@ const Header = () => {
             >
                 <div className={styles.container}>
                     <div className={styles.wrapperText}>
-                        <h2 className={styles.title}>
+                        <h2 className={styles.title} {...layoutData?.titleProps}>
                             {layoutData?.title}
+
                         </h2>
 
                         <p className={styles.subtitle}>
