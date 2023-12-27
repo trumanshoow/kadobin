@@ -6,7 +6,7 @@ import Bill_card_icon from '../../assets/icons/bill_card_icon'
 import Magnetic_card from '../../assets/icons/magnetic_card_icon'
 import Sim_card_icon from '../../assets/icons/sim_card_icon'
 import Radio_tower_card_icon from '../../assets/icons/radio_tower_card_icon'
-import {useEffect} from "react";
+import React, {useEffect} from "react";
 import {useDispatch} from "react-redux";
 import {setPageData} from "../../redux/slices/pageData";
 import HamburgMenu_icon from "../../assets/icons/hamburgMenu_icon";
@@ -21,11 +21,15 @@ const data = [
 ]
 const Home = () => {
 
-
     return (
         <MainLayout
-
+            title="سلام خوش اومدی"
+            titleProps="var(--babyPurple)"
+            subtitle=""
+            headerColor="white"
+            icon={<HamburgMenu_icon width="2.5rem"/>}
         >
+
             <div className={Styles.body}>
                 <div className={Styles.section}>
                     <div className={Styles.container}>

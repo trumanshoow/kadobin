@@ -4,7 +4,7 @@
 }
 
 .section {
-    width: 100%!important;
+    width: 100% !important;
     background-color: white;
     height: 15rem;
     border-radius: 0 0 3rem 3rem;
@@ -30,9 +30,11 @@
     margin: -1.5rem 0 .8rem 0;
     padding: .6rem 4.7rem;
 }
+
 .title {
-    font-size: .8rem;
+
 }
+
 .subtitle {
     width: 78%;
     font-size: .6rem;

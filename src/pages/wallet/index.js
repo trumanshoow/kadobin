@@ -2,10 +2,20 @@
 import Button from '../../components/button'
 import ServicesButton from "../../components/ServicesButton";
 import Bill_card_icon from "../../assets/icons/bill_card_icon";
+import Back from "../../assets/icons/back-card-icon";
+import MainLayout from "../../layout/main";
+import HamburgMenu_icon from "../../assets/icons/hamburgMenu_icon";
+
 
 const WalletPage = () => {
     return (
-        <>
+        <MainLayout
+            icon={<HamburgMenu_icon width="2.5rem"/>}
+            title="کیف پول"
+            subtitle="واریز و برداشت"
+            headerColor="var(--babyBg)"
+        >
+
             <div>
                 <p></p>
             </div>
@@ -26,7 +36,7 @@ const WalletPage = () => {
             <div>
                 <span>sswwooiippee</span>
             </div>
-        </>
+        </MainLayout>
     );
 };
 

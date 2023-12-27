@@ -17,7 +17,7 @@ const DreamPage = () => {
     return (
         <MainLayout
             title="آرزو ها"
-            titleProps={{className: styles.title}}
+            titleProps=""
             subtitle=""
             headerColor="white"
             icon={<HamburgMenu_icon width="2.5rem"/>}

@@ -17,7 +17,7 @@ const DreamAdd = () => {
             icon={<Back width="2.5rem"/>}
             title="ثبت آرزو"
             subtitle="09032175822"
-            headerColor="white"
+            headerColor="var(--babyBg)"
         >
             <div>
                 <input
