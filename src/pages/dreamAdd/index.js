@@ -14,13 +14,10 @@ const DreamAdd = () => {
 
     return (
         <MainLayout
-            title="ثبت آرزو"
-            titleProps={{className: styles.title}}
-            subtitle="09032175822"
-            subTitleProps={{className: styles.subtitle}}
-            headerColor="white"
             icon={<Back width="2.5rem"/>}
-            containerProps={{className: styles.container}}
+            title="ثبت آرزو"
+            subtitle="09032175822"
+            headerColor="white"
         >
             <div>
                 <input

@@ -21,12 +21,9 @@ const DreamPage = () => {
     return (
         <MainLayout
             title="آرزو ها"
-            titleProps={{className: styles.title}}
-            subtitle="09032175822"
-            subTitleProps={{className: styles.subtitle}}
+            subtitle=""
             headerColor="white"
-            icon={<Back width="2.5rem"/>}
-            containerProps={{className: styles.container}}
+            icon={<HamburgMenu_icon width="2.5rem"/>}
         >
             <>
                 <div className={Styles.all}>

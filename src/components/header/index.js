@@ -12,22 +12,17 @@ const Header = () => {
                 className={styles.header}
                 style={{backgroundColor: layoutData?.headerColor}}
             >
-                <div
-                    {...layoutData?.containerProps}
-                    className={styles.container}
-                >
-                    {layoutData?.icon}
-                    <div>
-                        <h2
-                            {...layoutData?.titleProps}>
+                <div className={styles.container}>
+                    <div className={styles.wrapperText}>
+                        <h2 className={styles.title}>
                             {layoutData?.title}
                         </h2>
-                        <h4
-                            {...layoutData?.subTitleProps}>
-                            {layoutData?.subtitle}
-                        </h4>
-                    </div>
 
+                        <p className={styles.subtitle}>
+                            {layoutData?.subtitle}
+                        </p>
+                    </div>
+                {layoutData?.icon}
                 </div>
             </div>
         </>
