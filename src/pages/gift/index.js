@@ -3,22 +3,25 @@ import Input from '../../components/input/index'
 import { text } from '@fortawesome/fontawesome-svg-core';
 import Telephon from '../../assets/icons/telephon'
 import Button from '../../components/button'
-import {useEffect} from "react";
+import React, {useEffect} from "react";
 import {setPageData} from "../../redux/slices/pageData";
 import {useDispatch} from "react-redux";
+import Back from "../../assets/icons/back-card-icon";
+import styles from "../dreamAdd/dreamAdd.module.css";
+import MainLayout from "../../layout/main";
 const GiftPage = () => {
-    const dispatch = useDispatch();
 
-    useEffect(() => {
-        dispatch(
-            setPageData({
-                title: "هدیه",
-                headerColor: "white"
-            })
-        )
-    }, []);
     
     return (
+        <MainLayout
+            icon={<Back width="2.5rem"/>}
+            title="ثبت آرزو"
+            titleProps={{className: styles.title}}
+            subtitle="09032175822"
+            subTitleProps={{className: styles.subtitle}}
+            headerColor="white"
+            containerProps={{className: styles.container}}
+        >
         <div className={Styles.body}>
             <div className={Styles.whiteSection}>
                 <div className={Styles.container}>
@@ -36,6 +39,8 @@ const GiftPage = () => {
             </div>
                     <Button className={Styles.Button} text="ادامه"></Button>
         </div>
+
+        </MainLayout>
     )
 }
 export default GiftPage;
