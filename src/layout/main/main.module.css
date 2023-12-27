@@ -11,4 +11,6 @@
     padding-bottom: 6rem;
     overflow-y: scroll;
     height: 100vh;
+    display: flex;
+    justify-content: center;
 }
