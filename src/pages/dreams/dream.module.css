@@ -30,7 +30,9 @@
     margin: -1.5rem 0 .8rem 0;
     padding: .6rem 4.7rem;
 }
-
+.title {
+    font-size: .8rem;
+}
 .subtitle {
     width: 78%;
     font-size: .6rem;
