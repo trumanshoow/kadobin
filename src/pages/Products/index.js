@@ -17,7 +17,11 @@ const Products = () => {
     return (
         <div className={styles.body}>
             <div className={styles.Continer}>
-                    <Input className={styles.Search} placeholder={Search}>جست و جو در بین هزاران محصول </Input>
+                <Input 
+                    className={styles.Search} 
+                    placeholder="جست و جو در بین هزاران محصول"
+                    Icon={Search}
+                />
                 <div className={styles.Parentdata}>
                     {
                         data.map((item, index) => (
