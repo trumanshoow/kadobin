@@ -15,7 +15,7 @@
 .Search{
     width: 34%;
     height: 3rem;
-    background: url(../../assets/icons/Search.js) 7px 7px;
+    margin: .5rem 0 .5rem 0;
 }
 .Parentdata{
     width: 34%;

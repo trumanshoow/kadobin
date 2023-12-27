@@ -1,7 +1,7 @@
-import Styles from './input.module.css'
 import {useState} from "react";
+import styles from './input.module.css'
 
-const Input = ({className, value, ...rest}) => {
+const Input = ({className, value, Icon, ...rest}) => {
     const [message, setMessage] = useState("");
 
     const handleChange = (event) => {
@@ -9,14 +9,15 @@ const Input = ({className, value, ...rest}) => {
     }
 
     return (
-        <>
+        <div className={className + " " + styles.wrapper}>
+            {Icon ? <Icon className={styles.icon}/> : null}
             <input
                 onChange={handleChange}
                 value={message}
-                className={className + " " + Styles.input}
+                className={className +" "+ styles.input}
                 {...rest}
             />
-        </>
+        </div>
     );
 };
 

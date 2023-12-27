@@ -10,7 +10,7 @@ const ProductsData = ({ Name, previousprice, Discount, Price, src }) => {
             <div className={styles.Specificationbox}>
                 <p className={styles.Name}>{Name}</p>
                 <div className={styles.Specifications}>
-                    <div className={styles.Discount}>{Discount}</div>
+                    <div className={styles.Discount}>{Discount ? Discount : null}</div>
                     <p className={styles.previousprice}>{previousprice}</p>
                 </div>
                 <p className={styles.Price}>{Price}</p>
