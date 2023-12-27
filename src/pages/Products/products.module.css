@@ -1,0 +1,22 @@
+.body{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.Continer{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.Search{
+    width: 34%;
+    height: 3rem;
+    background: url(../../assets/icons/Search.js) 7px 7px;
+}
+.Parentdata{
+    width: 34%;
+}
