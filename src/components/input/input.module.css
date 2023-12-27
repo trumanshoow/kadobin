@@ -1,8 +1,8 @@
 .wrapper {
-    min-width: 15rem;
     position: relative;
     display: flex;
     align-items: center;
+    background-color: white;
 }
 
 .input {

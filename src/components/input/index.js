@@ -14,7 +14,7 @@ const Input = ({className, value, Icon, ...rest}) => {
             <input
                 onChange={handleChange}
                 value={message}
-                className={styles.input}
+                className={className +" "+ styles.input}
                 {...rest}
             />
         </div>
