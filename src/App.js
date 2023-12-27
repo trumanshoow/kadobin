@@ -10,6 +10,7 @@ import store from "./redux/store";
 import Terms from "./pages/terms";
 import Wallet from "./pages/wallet";
 import Dreams from "./pages/dreams";
+import Products from "./pages/Products/index"
 import {Provider} from "react-redux";
 import Code from "./pages/login/code";
 import DreamAdd from "./pages/dreamAdd";
@@ -33,9 +34,8 @@ const App = () => {
                     <Route path="/wallet" element={<Wallet/>}/>
                     <Route path="/dreams" element={<Dreams/>}/>
                     <Route path="/dreams/addwish" element={<DreamAdd/>}/>
-                </Routes>
-                <Routes>
                     <Route path="/Menu" element={<Menu/>}/>
+                    <Route path="/Products" element={<Products/>}/>
                 </Routes>
             </Router>
         </Provider>

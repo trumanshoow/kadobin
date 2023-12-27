@@ -11,6 +11,7 @@ import Tshirt from '../../assets/icons/tShirtCardIcon'
 import Women from '../../assets/icons/womensShoeCardIcon'
 import Button from '../../components/button/index'
 import ServicesButton from '../../components/LorgServicesButton'
+import MainLayout from '../../layout/main';
 
 const data = [
    { subTitle: " 68 ", title: " پوشاک مردانه ", Icon: Tshirt },
@@ -27,7 +28,7 @@ const data = [
 const ShopPage = () => {
 
    return (
-      <>
+      <MainLayout>
          <div className={Styles.body}>
             <div className={Styles.container}>
                <div className={Styles.boxWrapper}>
@@ -43,7 +44,7 @@ const ShopPage = () => {
                <Button className={Styles.Button} text=" همه محصولات " />
             </div>
          </div>
-      </>
+      </MainLayout>
    );
 };
 

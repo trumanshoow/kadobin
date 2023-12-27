@@ -1,0 +1,62 @@
+.Parent{
+    margin-bottom: .5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 4.8rem;
+    border-radius: 1rem;
+    border: 1px solid #9897a1fc;
+}
+.ParentImg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Picture{
+    width: 2rem;
+    padding-right: 1rem;
+}
+.Specificationbox{
+    padding-right: 1rem;
+}
+.Name{
+    font-size: .6rem;
+    margin-top: 0;
+}
+.Specifications{
+    display: flex;
+}
+.previousprice{
+    color: #c4c4c4;
+    height: .4rem;
+    margin: 0;
+    font-size: .6rem;
+}
+.Discount{
+    margin-left: .3rem;
+    padding: 0 .1rem 0 .1rem;
+    background-color: #dd3867;
+    border-radius: .3rem;
+    font-size: .6rem;
+    color: white;
+    height: 1.1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Price{
+    margin: 0;
+    font-size: .6rem;
+}
+.ParentIcon{
+    width: 3rem;
+    display: flex;
+    justify-content: center;
+}
+.Icon{
+    width: .6rem;
+    border: 1px dashed blue;
+    padding: .4rem;
+    border-radius: .4rem;
+}

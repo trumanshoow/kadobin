@@ -34,7 +34,7 @@
 .Input2{
     margin: .5rem 0 0 0;
     background-color: #f3f3f3;
-    width: 10.5rem;
+    width: 10.5rem !important;
     padding: 0 .9rem;
 }
 .Input2:focus{
