@@ -22,7 +22,7 @@ const DreamAdd = () => {
             <div>
                 <input
                     ref={inputRef}
-                    style={{display: "none"}}
+                    style={{display: "none" , className: styles}}
                     type="file"
                     onChange={handleChange}
                 />
