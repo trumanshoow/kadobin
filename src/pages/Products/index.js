@@ -3,6 +3,7 @@ import styles from "./products.module.css"
 import Input from "../../components/input"
 import Search from "../../assets/icons/Search"
 import MainLayout from "../../layout/main";
+import Back from "../../assets/icons/back-card-icon";
 
 const Products = () => {
 
