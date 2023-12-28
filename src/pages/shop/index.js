@@ -15,15 +15,15 @@ import MainLayout from '../../layout/main';
 import HamburgMenu_icon from "../../assets/icons/hamburgMenu_icon";
 
 const data = [
-   { subTitle: " 68 ", title: " پوشاک مردانه ", Icon: Tshirt },
-   { subTitle: " 25 ", title: " زیورالات ", Icon: Jewelry },
    { subTitle: " 25 ", title: " هدیه نقدی ", Icon: Banknotes },
-   { subTitle: " 59 ", title: " اسباب بازی ", Icon: Christmas },
-   { subTitle: " 325 ", title: " کالای دیجیتال ", Icon: Smartphone },
+   { subTitle: " 25 ", title: " زیورالات ", Icon: Jewelry },
+   { subTitle: " 68 ", title: " پوشاک مردانه ", Icon: Tshirt },
    { subTitle: " 25 ", title: " وسایل ورزشی ", Icon: Soccer },
-   { subTitle: " 25 ", title: " رز جاودان ", Icon: Flower },
-   { subTitle: " 630 ", title: " اکسسوری ", Icon: Souvenirs },
+   { subTitle: " 325 ", title: " کالای دیجیتال ", Icon: Smartphone },
+   { subTitle: " 59 ", title: " اسباب بازی ", Icon: Christmas },
    { subTitle: " 100 ", title: " کیف و کفش ", Icon: Women },
+   { subTitle: " 630 ", title: " اکسسوری ", Icon: Souvenirs },
+   { subTitle: " 25 ", title: " رز جاودان ", Icon: Flower },
 ]
 
 const ShopPage = () => {
