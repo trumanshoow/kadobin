@@ -14,21 +14,32 @@ const DreamAdd = () => {
             headerColor="white"
             icon={<Back width="2.5rem"/>}
         >
-            <div className={styles.container}>
+            <div className={styles.body}>
+                <div className={styles.section}>
+                    <div className={styles.container}>
+                        <input
+                            ref={inputRef}
+                            className={styles.inp}
+                            type="file"
+                        />
+                        <button
+                            className={styles.Btn}
+                            onClick={() => inputRef.current.click()}
+                        >
+                            <Upload className={styles.upload}/>
+                            آپلود تصویر آرزو
+                        </button>
 
-                <input
-                    ref={inputRef}
-                    className={styles.inp}
-                    type="file"
-                />
-                <button
-                    className={styles.Btn}
-                    onClick={() => inputRef.current.click()}
-                >
-                    <Upload className={styles.upload}/>
-                    آپلود تصویر آرزو
-                </button>
+                        <input
+                            className={styles.input}
+                            type="text"
+                            placeholder="عنوان آرزو"
+                        />
+
+                    </div>
+                </div>
             </div>
+
         </MainLayout>
     );
 };
