@@ -16,6 +16,12 @@ const Products = () => {
     ]
 
     return (
+        <MainLayout
+            icon={<Back width="2.5rem"/>}
+            title="فروشگاه کادوبین"
+            subtitle=""
+            headerColor="var(--babyBg)"
+        >
         <div className={styles.body}>
             <div className={styles.Continer}>
                 <div className={styles.inputParent}>
@@ -37,6 +43,7 @@ const Products = () => {
                 </div>
             </div>
         </div>
+        </MainLayout>
     )
 }
 export default Products;

@@ -1,0 +1,53 @@
+.body {
+    height: 100vh;
+    width: 100%;
+}
+
+.section {
+    width: 100%;
+    background-color: white;
+    height: 25rem;
+    border-radius: 0 0 3rem 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.container {
+    height: 100%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 370px;
+}
+
+.Btn {
+    background-color: #F3F3F3;
+    border: none;
+    border-radius: .7rem;
+    width: 8.5rem;
+    height: 8.5rem;
+    margin-top: 2rem;
+    font-size: .7rem;
+    color: #717171;
+}
+
+.inp {
+    display: none;
+}
+
+.upload {
+    width: .4rem;
+}
+
+.input {
+    height: 2.2rem;
+    width: 100%;
+    background-color: #F3F3F3;
+    border: none;
+    border-radius: .5rem;
+    margin-top: 2rem;
+}
