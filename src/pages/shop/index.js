@@ -1,5 +1,5 @@
 import React from 'react';
-import Styles from './shop.module.css'
+import styles from './shop.module.css'
 import Banknotes from '../../assets/icons/BanknotesCardIcon'
 import Christmas from '../../assets/icons/ChristmasPenguinCardIcon'
 import Flower from '../../assets/icons/flowerCardIcon'
@@ -36,19 +36,19 @@ const ShopPage = () => {
           subtitle="انتخاب دسته بندی"
           headerColor="var(--babyBg)"
       >
-         <div className={Styles.body}>
-            <div className={Styles.container}>
-               <div className={Styles.boxWrapper}>
+         <div className={styles.body}>
+            <div className={styles.container}>
+               <div className={styles.boxWrapper}>
                   {
                      data.map((item, index) => (
-                        <ServicesButton className={Styles.ServicesButton2}
+                        <ServicesButton className={styles.ServicesButton2}
                            key={index}
                            {...item}
                         />
                      ))
                   }
                </div>
-               <Button className={Styles.Button} text=" همه محصولات " />
+               <Button className={styles.Button} text=" همه محصولات " />
             </div>
          </div>
       </MainLayout>

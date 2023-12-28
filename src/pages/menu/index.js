@@ -1,4 +1,4 @@
-import Styles from "./menu.module.css"
+import styles from "./menu.module.css"
 import User from "../../assets/icons/icons8UserMale"
 import UserAdd from "../../assets/icons/icons8MaleUser"
 import StartMenu from "../../components/startMenu/index"
@@ -26,27 +26,27 @@ const Menu = () => {
     ]
 
     return (
-        <div className={Styles.body}>
-            <div className={Styles.container}>
-                <div className={Styles.Header}>
-                    <p className={Styles.Menu}>
+        <div className={styles.body}>
+            <div className={styles.container}>
+                <div className={styles.Header}>
+                    <p className={styles.Menu}>
                         منو
                     </p>
-                    <Delete className={Styles.IconDelete} />
+                    <Delete className={styles.IconDelete} />
                 </div>
-                <div className={Styles.User}>
-                    <User className={Styles.IconUser} />
+                <div className={styles.User}>
+                    <User className={styles.IconUser} />
                 </div>
-                <div className={Styles.UserName}>
+                <div className={styles.UserName}>
                     <h4>
                         علیرضا حسینی
                     </h4>
-                    <div className={Styles.ProfileParent}>
+                    <div className={styles.ProfileParent}>
                         <UserAdd />
-                        <span className={Styles.Profile}> پروفایل </span>
+                        <span className={styles.Profile}> پروفایل </span>
                     </div>
                 </div>
-                <div className={Styles.ParentIcon}>
+                <div className={styles.ParentIcon}>
                     {
                         data.map((item, index) => (
                             <StartMenu
@@ -56,10 +56,10 @@ const Menu = () => {
                         ))
                     }
                 </div>
-                <p className={Styles.software}>
+                <p className={styles.software}>
                     نرم افزار هدیه کادوبین
                 </p>
-                <p className={Styles.prescription}>
+                <p className={styles.prescription}>
                     نسخه 10.0
                 </p>
             </div>
