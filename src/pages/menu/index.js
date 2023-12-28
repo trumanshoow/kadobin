@@ -42,7 +42,7 @@ const Menu = () => {
                         علیرضا حسینی
                     </h4>
                     <div className={styles.ProfileParent}>
-                        <UserAdd />
+                        <UserAdd className={styles.UserAdd}/>
                         <span className={styles.Profile}> پروفایل </span>
                     </div>
                 </div>

@@ -36,14 +36,17 @@
     align-items: center;
 }
 .ProfileParent{
-    width: 4rem;
-    height: .6rem;
+    width: 4.5rem;
+    height: .8rem;
     display: flex;
     align-items: center;
     justify-content: center;
     border: .1rem solid #f4d32f;
     border-radius: .4rem;
     padding: .5rem;
+}
+.UserAdd{
+    width: 1REM;
 }
 .Profile{
     padding:0 .3rem 0 0;
