@@ -8,7 +8,7 @@ const MainLayout = ({children, ...props}) => {
         <Provider value={props}>
             <div className={styles.layout}>
                 <Header/>
-                <div className={styles.WrapperOutlet}>
+                <div className={styles.wrapperOutlet}>
                     {children}
                 </div>
                 <BottomNavigation/>

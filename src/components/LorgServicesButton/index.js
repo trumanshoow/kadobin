@@ -5,7 +5,7 @@ const ServicesButton2 = ({Icon ,title , subTitle}) => {
         <>
             <div className={styles.textIconWrapper}>
                 <div className={styles.boxes}>
-                    <Icon width="2rem"/>
+                    <Icon width="1.8rem"/>
                 </div>
                 <h3 className={styles.title}>{title}</h3>
                 <span className={styles.subTitle}>{subTitle}</span>

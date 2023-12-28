@@ -3,14 +3,15 @@
     background-color: white;
     width: 5rem;
     height: 5rem;
-    border-radius: 1rem;
+    border-radius: 1.5rem;
     display: flex;
     justify-content: center;
     align-items: center;
     margin:0 1rem 0 1rem;
+    box-shadow: 0 12px 19px -21px black;
 }
 .title {
-    font-size: 1rem;
+    font-size: .6rem;
     margin: 0;
 }
 
