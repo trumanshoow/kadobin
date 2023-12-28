@@ -1,4 +1,4 @@
-import Styles from './gift.module.css'
+import styles from './gift.module.css'
 import Input from '../../components/input/index'
 import { text } from '@fortawesome/fontawesome-svg-core';
 import Telephon from '../../assets/icons/telephon'
@@ -14,22 +14,22 @@ const GiftPage = () => {
             icon={<Back width="2.5rem"/>}
             headerColor="white"
         >
-        <div className={Styles.body}>
-            <div className={Styles.whiteSection}>
-                <div className={Styles.container}>
-                    <img className={Styles.kadoImg} src={require("../../assets/image/kado.png")} alt="kado" />
-                    <h3 className={Styles.title}> به کی می خوای هدیه بدی ؟ </h3>
+        <div className={styles.body}>
+            <div className={styles.whiteSection}>
+                <div className={styles.container}>
+                    <img className={styles.kadoImg} src={require("../../assets/image/kado.png")} alt="kado" />
+                    <h3 className={styles.title}> به کی می خوای هدیه بدی ؟ </h3>
                     <div>
-                        <Input className={Styles.Input} type={text} placeholder=" نام و نام خانوادگی "/>
+                        <Input className={styles.Input} type={text} placeholder=" نام و نام خانوادگی "/>
                     </div>
-                    <div className={Styles.parentInput}>
-                        <button className={Styles.button}><Telephon className={Styles.Telephone}/></button>
-                        <Input className={Styles.Input2} type={Number} placeholder="_ _ _ _ _ _ _ _ _09 "/>
+                    <div className={styles.parentInput}>
+                        <button className={styles.button}><Telephon className={styles.Telephone}/></button>
+                        <Input className={styles.Input2} type={Number} placeholder="_ _ _ _ _ _ _ _ _09 "/>
                     </div>
-                    <h3 className={Styles.name}> اسم و شماره تماس کسی که می خوای بهش کادو بدی رو وارد کن.</h3>
+                    <h3 className={styles.name}> اسم و شماره تماس کسی که می خوای بهش کادو بدی رو وارد کن.</h3>
                 </div>
             </div>
-                    <Button className={Styles.Button} text="ادامه"></Button>
+                    <Button className={styles.Button} text="ادامه"></Button>
         </div>
 
         </MainLayout>

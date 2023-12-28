@@ -1,14 +1,14 @@
-import Styles from "./ServicesButton2.module.css"
+import styles from "./ServicesButton2.module.css"
 
 const ServicesButton2 = ({Icon ,title , subTitle}) => {
     return (
         <>
-            <div className={Styles.textIconWrapper}>
-                <div className={Styles.boxes}>
+            <div className={styles.textIconWrapper}>
+                <div className={styles.boxes}>
                     <Icon width="2rem"/>
                 </div>
-                <h3 className={Styles.title}>{title}</h3>
-                <span className={Styles.subTitle}>{subTitle}</span>
+                <h3 className={styles.title}>{title}</h3>
+                <span className={styles.subTitle}>{subTitle}</span>
             </div>
         </>
     );

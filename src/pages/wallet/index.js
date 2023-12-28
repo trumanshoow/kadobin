@@ -1,4 +1,4 @@
-// import Styles from 'wallet.module.css'
+// import styles from 'wallet.module.css'
 import Button from '../../components/button'
 import ServicesButton from "../../components/ServicesButton";
 import Bill_card_icon from "../../assets/icons/bill_card_icon";

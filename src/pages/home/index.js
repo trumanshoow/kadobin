@@ -1,4 +1,4 @@
-import Styles from "./home.module.css";
+import styles from "./home.module.css";
 import Button from "../../components/button";
 import ServicesButton from "../../components/ServicesButton";
 
@@ -30,18 +30,18 @@ const Home = () => {
             icon={<HamburgMenu_icon width="2.5rem"/>}
         >
 
-            <div className={Styles.body}>
-                <div className={Styles.section}>
-                    <div className={Styles.container}>
-                        <div className={Styles.kadoImg}>
+            <div className={styles.body}>
+                <div className={styles.section}>
+                    <div className={styles.container}>
+                        <div className={styles.kadoImg}>
                             <img src={require("../../assets/image/kado.png")} alt="kado"/>
                         </div>
                     </div>
                 </div>
 
-                <div className={Styles.container}>
+                <div className={styles.container}>
                     <Button text={'ارسال کادو'}></Button>
-                    <div className={Styles.boxWrapper}>
+                    <div className={styles.boxWrapper}>
                         {
                             data.map((item, index) =>
                                 <ServicesButton
@@ -51,7 +51,7 @@ const Home = () => {
                             )
                         }
                     </div>
-                    <img className={Styles.banner} src={require('../../assets/image/notification-banner.png')} alt=""/>
+                    <img className={styles.banner} src={require('../../assets/image/notification-banner.png')} alt=""/>
                 </div>
             </div>
         </MainLayout>

@@ -1,9 +1,9 @@
 
-import Styles from './button.module.css'
+import styles from './button.module.css'
 const Button = ({className ,text , onClick}) => {
     return (
         <>
-            <button className={Styles.button+" "+className} onClick={onClick}>{text}</button>
+            <button className={styles.button+" "+className} onClick={onClick}>{text}</button>
         </>
     );
 };

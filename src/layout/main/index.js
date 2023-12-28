@@ -1,14 +1,14 @@
 import BottomNavigation from "../../components/bottomNavigation";
 import Header from "../../components/header";
 import {Provider} from "../../contexts/layoutData";
-import Styles from "./main.module.css";
+import styles from "./main.module.css";
 
 const MainLayout = ({children, ...props}) => {
     return (
         <Provider value={props}>
-            <div className={Styles.layout}>
+            <div className={styles.layout}>
                 <Header/>
-                <div className={Styles.WrapperOutlet}>
+                <div className={styles.WrapperOutlet}>
                     {children}
                 </div>
                 <BottomNavigation/>

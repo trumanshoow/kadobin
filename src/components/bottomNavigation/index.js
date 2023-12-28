@@ -1,4 +1,4 @@
-import Styles from './bottomNavigation.module.css'
+import styles from './bottomNavigation.module.css'
 import MenuLink from "./MenuLink";
 import Home_icon from '../../assets/icons/home_icon';
 import Gift_icon from '../../assets/icons/gift_icon';
@@ -21,7 +21,7 @@ const data = [
 const BottomNavigation = () => {
     return (
         <>
-            <nav className={Styles.navMenu}>
+            <nav className={styles.navMenu}>
                 {
                     data.map((item, index) =>
                         <MenuLink
