@@ -1,5 +1,7 @@
 .body{
+    background-color: #f3f3f3;
     width: 100%;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -12,10 +14,13 @@
     align-items: center;
     justify-content: center;
 }
-.Search{
+.inputParent{
     width: 34%;
-    height: 3rem;
-    margin: .5rem 0 .5rem 0;
+}
+.Search{
+    border-radius: .7rem;
+    height: 2.5rem;
+    margin: .3rem 0 .3rem 0;
 }
 .Parentdata{
     width: 34%;

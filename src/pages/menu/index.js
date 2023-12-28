@@ -29,10 +29,10 @@ const Menu = () => {
         <div className={Styles.body}>
             <div className={Styles.container}>
                 <div className={Styles.Header}>
-                    <Delete className={Styles.IconDelete} />
                     <p className={Styles.Menu}>
                         منو
                     </p>
+                    <Delete className={Styles.IconDelete} />
                 </div>
                 <div className={Styles.User}>
                     <User className={Styles.IconUser} />
@@ -42,8 +42,8 @@ const Menu = () => {
                         علیرضا حسینی
                     </h4>
                     <div className={Styles.ProfileParent}>
-                        <span className={Styles.Profile}> پروفایل </span>
                         <UserAdd />
+                        <span className={Styles.Profile}> پروفایل </span>
                     </div>
                 </div>
                 <div className={Styles.ParentIcon}>

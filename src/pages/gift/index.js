@@ -24,7 +24,7 @@ const GiftPage = () => {
                     </div>
                     <div className={Styles.parentInput}>
                         <button className={Styles.button}><Telephon className={Styles.Telephone}/></button>
-                        <Input className={Styles.Input2} type={Number} placeholder=" +98 _ _ _ _ _ _  _ _ _ _ "/>
+                        <Input className={Styles.Input2} type={Number} placeholder="_ _ _ _ _ _ _ _ _09 "/>
                     </div>
                     <h3 className={Styles.name}> اسم و شماره تماس کسی که می خوای بهش کادو بدی رو وارد کن.</h3>
                 </div>

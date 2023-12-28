@@ -17,7 +17,7 @@
 .wrapper{
     border-bottom: 1px solid white;
     display: flex;
-    justify-content: end;
-    align-items: end;
+    justify-content: start;
+    align-items: start;
     margin-top: .6rem;
 }
