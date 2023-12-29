@@ -15,8 +15,8 @@ const data = [
     {text: "کیف پول",textBold:"aa", to: "/wallet", Icon: Wallet_icon, ActiveIcon: Wallet_active_icon},
     {text: "هدیه",textBold:"aa", to: "/gift", Icon: Gift_icon, ActiveIcon: Gift_active_icon},
     {text: "خانه",textBold:"aa", to: "/", Icon: Home_icon, ActiveIcon: Home_active_icon},
-    {text: "آرزوها",textBold:"aa", to: "/dreams", Icon: Dreams_icon, ActiveIcon: Dreams_active_icon},
     {text: "فروشگاه",textBold:"aa", to: "/shop", Icon: Shop_icon, ActiveIcon: Shop_active_icon},
+    {text: "آرزوها",textBold:"aa", to: "/dreams", Icon: Dreams_icon, ActiveIcon: Dreams_active_icon},
 ]
 const BottomNavigation = () => {
     return (

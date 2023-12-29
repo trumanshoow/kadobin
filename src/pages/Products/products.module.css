@@ -22,6 +22,9 @@
     height: 2.5rem;
     margin: .3rem 0 .3rem 0;
 }
+.Search:focus{
+    outline:none;
+}
 .Parentdata{
     width: 34%;
 }
