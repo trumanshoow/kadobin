@@ -1,13 +1,24 @@
-
+import React from 'react';
 
 const Plus = (props) => {
     return (
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12" {...props}>
-            <g id="Group_2358" dataName="Group 2358" transform="translate(-55 -268)">
-                <path id="Path_6445" dataName="Path 6445" d="M17,13H7a1,1,0,0,1-1-1H6a1,1,0,0,1,1-1H17a1,1,0,0,1,1,1h0A1,1,0,0,1,17,13Z" transform="translate(49 262)" fill="#714fee" />
-                <path id="Path_6446" dataName="Path 6446" d="M11,17V7a1,1,0,0,1,1-1h0a1,1,0,0,1,1,1V17a1,1,0,0,1-1,1h0A1,1,0,0,1,11,17Z" transform="translate(49 262)" fill="#714fee" />
-            </g>
-        </svg>
-    )
-}
+        <div>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 18"{...props}>
+                <g id="Group_2346" dataName="Group 2346" transform="translate(-312 -18.5)">
+                    <g id="Group_2345" dataName="Group 2345">
+                        <g id="icons8_plus_math" transform="translate(312 18.5)">
+                            <path id="Path_1451" dataName="Path 1451"
+                                  d="M19,10H14V5a2,2,0,0,0-4,0v5H5a2,2,0,0,0,0,4H19a2,2,0,0,0,0-4Z"
+                                  transform="translate(-3 -3)" fill="#5b5b5b" opacity="0.35"/>
+                            <path id="Path_1452" dataName="Path 1452" d="M12,21a2,2,0,0,1-2-2V14h4v5A2,2,0,0,1,12,21Z"
+                                  transform="translate(-3 -3)" fill="#c5c5c5"/>
+                        </g>
+                    </g>
+                </g>
+            </svg>
+
+        </div>
+    );
+};
+
 export default Plus;
