@@ -16,6 +16,7 @@ import Code from "./pages/login/code";
 import DreamAdd from "./pages/dreamAdd";
 import LayoutLogin from "./layout/login";
 import Mobile from './pages/login/mobile';
+import Profile from './pages/profile';
 import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
 
 const App = () => {
@@ -36,6 +37,7 @@ const App = () => {
                     <Route path="/dreams/addwish" element={<DreamAdd/>}/>
                     <Route path="/Menu" element={<Menu/>}/>
                     <Route path="/Products" element={<Products/>}/>
+                    <Route path="/profile" element={<Profile/>}/>
                 </Routes>
             </Router>
         </Provider>

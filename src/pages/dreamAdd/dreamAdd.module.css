@@ -4,9 +4,9 @@
 }
 
 .section {
-    width: 100%;
+    width: 100vw;
     background-color: white;
-    height: 25rem;
+    height: 30rem;
     border-radius: 0 0 3rem 3rem;
     display: flex;
     flex-direction: column;
@@ -16,7 +16,7 @@
 
 .container {
     height: 100%;
-    width: 80%;
+    width: 78%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -25,12 +25,12 @@
 }
 
 .Btn {
-    background-color: #F3F3F3;
+    background-color: #F2F2F2;
     border: none;
     border-radius: .7rem;
-    width: 8.5rem;
-    height: 8.5rem;
-    margin-top: 2rem;
+    width: 8.7rem;
+    height: 8.7rem;
+    margin-top: 1.5rem;
     font-size: .7rem;
     color: #717171;
 }
@@ -44,10 +44,54 @@
 }
 
 .input {
-    height: 2.2rem;
-    width: 100%;
-    background-color: #F3F3F3;
+    font-size: .73rem;
+    height: 2.7rem;
+    width: 96%;
+    background-color: #F2F2F2;
     border: none;
-    border-radius: .5rem;
-    margin-top: 2rem;
+    border-radius: .7rem;
+    margin-top: 1.3rem;
+    padding-right: 1rem;
+}
+
+.inputWrapper {
+    width: 96%;
+    margin-top: 1rem;
+}
+
+.linkput {
+    text-align: right;
+    font-size: .73rem;
+    background-color: #F2F2F2;
+}
+
+.iconButton {
+    width: 2.7rem;
+    height: 2.75rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.8rem;
+    margin-left: 0!important;
+    background-color: #9E7CF9;
+    border: 0;
+    box-shadow: 0 0.25rem #714FEE;
+    top: 0;
+}
+
+.spanWrapper {
+    width: 96%;
+}
+
+.span {
+    font-size: .6rem;
+    opacity: 40%;
+    padding-right: 0!important;
+}
+
+.inspan {
+    width: 2.7rem;
+}
+
+.counter {
 }
