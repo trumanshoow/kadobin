@@ -123,7 +123,6 @@
     color: #C6C6C6;
 }
 
-
 .inputValue {
     width: fit-content;
     height: fit-content;
@@ -138,8 +137,8 @@
 }
 
 .toman {
-    font-size: .6rem;
-    margin-right: 1rem;
+    font-size: .95rem;
+    color: #6F4DED;
 }
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {

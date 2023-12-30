@@ -76,6 +76,9 @@ const DreamAdd = () => {
                             className={styles.counter}
                         >
                             <button
+                                    onClick={() => {
+                                        setValue(value + 50000)
+                                    }}
                                     className={styles.btn}
                             >
                                 <Plus
@@ -94,11 +97,13 @@ const DreamAdd = () => {
                                         value={value}
                                     />
                                     :
-                                    <span className={styles.toman} onClick={()=> setEdit(true)}>{value}تومان </span>
+                                    <p className={styles.toman} onClick={()=> setEdit(true)}>{value}  تومان</p>
 
                             }
 
-                            <button className={styles.btn}><Minus className={styles.icon}/></button>
+                            <button onClick={() => {
+                                 setValue(value - 50000)
+                            }} className={styles.btn}><Minus className={styles.icon}/></button>
                         </div>
 
                     </div>
