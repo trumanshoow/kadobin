@@ -1,29 +1,28 @@
 .body {
     width: 100%;
-    height: 100vh;
     display: flex;
     justify-content: center;
-    overflow-y: auto;
 }
 .container{
-    width: 70%;
+    width: 90%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100vh;
 }
 .wrapperWhite{
     display: flex;
     align-items: center;
     flex-direction: column;
-    width: 40%;
-    height: 85vh;
+    width: 18rem;
     border-radius: 1rem 1rem 0 0;
     background-color: white;
+    overflow-y: auto;
 }
 .User{
-    margin-top: -4rem;
+    z-index: 1;
+    margin-top: .5rem;
+    margin-bottom: -3rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -31,7 +30,7 @@
     height: 6rem;
     background-color: #ffffff;
     border-radius: 50%;
-    border: .2rem solid #f7e13d;
+    border: .3rem solid #f7e13d;
     outline: .2rem solid #d2b160;
 }
 .IconUser{
@@ -39,10 +38,10 @@
     height: 10rem;
 }
 .Picture{
-    margin: 1rem 0 .6rem 0;
+    margin: 3.7rem 0 1rem 0;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: end;
     text-decoration: none;
 }
 .icon{
@@ -55,8 +54,8 @@
     font-size: .6rem;
 }
 .name{
-    margin-top: 1rem;
-    width: 90%;
+    margin-bottom: 1rem;
+    width: 16rem;
     height: 2.5rem;
     background-color: #f3f3f3;
     border-radius: .5rem;
@@ -67,18 +66,12 @@
 }
 .parentjensiat{
     width: 90%;
-    margin-top: 1rem;
+    margin-bottom: 1rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.man{
-    width: 7.5rem;
-    height: 2.6rem;
-    background-color: #f3f3f3;
-    box-shadow: 0 4px #e5dfdf;
-}
-.woman{
+.parentjensiat Button{
     width: 7.5rem;
     height: 2.6rem;
     background-color: #f3f3f3;

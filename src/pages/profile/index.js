@@ -13,10 +13,10 @@ const Profile = () => {
         >
             <div className={styles.body}>
                 <div className={styles.container}>
-                    <div className={styles.wrapperWhite}>
                         <div className={styles.User}>
                             <User className={styles.IconUser} />
                         </div>
+                    <div className={styles.wrapperWhite}>
                         <a href="#" className={styles.Picture}>
                             <Plus className={styles.icon} width=".5rem"/>
                             <p> عکستو اضافه کن </p>

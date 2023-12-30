@@ -20,11 +20,11 @@ const GiftPage = () => {
                     <img className={styles.kadoImg} src={require("../../assets/image/kado.png")} alt="kado" />
                     <h3 className={styles.title}> به کی می خوای هدیه بدی ؟ </h3>
                     <div>
-                        <Input className={styles.Input} type={text} placeholder=" نام و نام خانوادگی "/>
+                        <Input inputClassName={styles.Input} type={text} placeholder=" نام و نام خانوادگی "/>
                     </div>
                     <div className={styles.parentInput}>
                         <button className={styles.button}><Telephon className={styles.Telephone}/></button>
-                        <Input className={styles.Input2} type={Number} placeholder="_ _ _ _ _ _ _ _ _09 "/>
+                        <Input inputClassName={styles.Input2} type={Number} placeholder="_ _ _ _ _ _ _ _ _09 "/>
                     </div>
                     <h3 className={styles.name}> اسم و شماره تماس کسی که می خوای بهش کادو بدی رو وارد کن.</h3>
                 </div>

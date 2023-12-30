@@ -14,17 +14,12 @@
     align-items: center;
     justify-content: center;
 }
-.inputParent{
-    width: 34%;
-}
 .Search{
+    width: 18rem;
     border-radius: .7rem;
     height: 2.5rem;
     margin: .3rem 0 .3rem 0;
 }
 .Search:focus{
     outline:none;
-}
-.Parentdata{
-    width: 34%;
 }

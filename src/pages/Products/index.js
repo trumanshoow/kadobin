@@ -32,7 +32,6 @@ const Products = () => {
                         Icon={Search}
                     />
                 </div>
-                <div className={styles.Parentdata}>
                     {
                         data.map((item, index) => (
                             <ProductsData
@@ -41,7 +40,6 @@ const Products = () => {
                             />
                         ))
                     }
-                </div>
             </div>
         </div>
         </MainLayout>
