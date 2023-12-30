@@ -1,4 +1,4 @@
-import React, {useRef} from 'react';
+import React, {useRef, useState} from 'react';
 import MainLayout from "../../layout/main";
 import Input from "../../components/input";
 import Upload from "../../assets/icons/uploadPicture";
@@ -12,6 +12,10 @@ import styles from "./dreamAdd.module.css";
 const DreamAdd = () => {
 
     const inputRef = useRef(null);
+
+    const  [value , setValue] = useState(50000)
+    const  [edit , setEdit] = useState(false)
+
 
     return (
         <MainLayout
@@ -68,11 +72,35 @@ const DreamAdd = () => {
                         <h5>
                             تعیین مبلغ آرزو
                         </h5>
-                        <div className={styles.counter}>
-                            <button><Plus/></button>
+                        <div
+                            className={styles.counter}
+                        >
+                            <button
+                                    className={styles.btn}
+                            >
+                                <Plus
+                                    className={styles.icon}
+                                 />
+                            </button>
 
-                            <button><Minus/></button>
+                            {
+                                edit ?
+                                    <input
+                                        autoFocus
+                                        className={styles.inputValue}
+                                        onBlur={()=> setEdit(false)}
+                                        onChange={event => setValue(parseInt(event.currentTarget.value))}
+                                        type="number"
+                                        value={value}
+                                    />
+                                    :
+                                    <span className={styles.toman} onClick={()=> setEdit(true)}>{value}تومان </span>
+
+                            }
+
+                            <button className={styles.btn}><Minus className={styles.icon}/></button>
                         </div>
+
                     </div>
                 </div>
             </div>
