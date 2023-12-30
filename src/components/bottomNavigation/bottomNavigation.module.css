@@ -56,7 +56,6 @@
     width: 3.5rem;
     height: 3.5rem;
     position: absolute;
-    /*bottom: -100%;*/
     bottom: -2rem;
     z-index: -2;
 }
