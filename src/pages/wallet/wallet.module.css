@@ -1,0 +1,40 @@
+/*.container {*/
+/*    width: 90%;*/
+/*}*/
+.walletBalance {
+    width: 90%;
+    height: 8.5rem;
+    margin-top: 3rem;
+    border-radius: 1rem;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    box-shadow: 0 12px 19px -21px black;
+}
+.walletBalance img {
+    width: 10rem;
+    position: absolute;
+    right: .5rem;
+    top: -2rem;
+}
+.title {
+    font-size: .7rem;
+    margin: 0;
+    color: gray;
+}
+.wrapperImg {
+    width: 60%;
+}
+.wrapperText {
+    width: 40%;
+}
+.subTitle {
+    font-size: 1.2rem;
+    margin: 0;
+}
+.toman {
+    color: gray;
+    font-size: .7rem;
+}
