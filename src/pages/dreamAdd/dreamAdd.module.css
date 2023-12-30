@@ -1,22 +1,22 @@
 .body {
-    height: 100vh;
     width: 100%;
+    height: 100vh;
 }
 
 .section {
     width: 100vw;
-    background-color: white;
     height: 30rem;
-    border-radius: 0 0 3rem 3rem;
+    background-color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
+    border-radius: 0 0 3rem 3rem;
 }
 
 
 .container {
-    height: 100%;
     width: 78%;
+    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -25,14 +25,14 @@
 }
 
 .Btn {
-    background-color: #F2F2F2;
-    border: none;
-    border-radius: .7rem;
     width: 8.7rem;
     height: 8.7rem;
-    margin-top: 1.5rem;
-    font-size: .7rem;
+    background-color: #F2F2F2;
     color: #717171;
+    border: none;
+    border-radius: .7rem;
+    font-size: .7rem;
+    margin-top: 1.5rem;
 }
 
 .inp {
@@ -43,17 +43,17 @@
     width: .4rem;
 }
 
+
 .input {
-    font-size: .73rem;
     height: 2.7rem;
     width: 96%;
+    font-size: .73rem;
     background-color: #F2F2F2;
     border: none;
     border-radius: .7rem;
     margin-top: 1.3rem;
     padding-right: 1rem;
 }
-
 .inputWrapper {
     width: 96%;
     margin-top: 1rem;
@@ -94,4 +94,58 @@
 }
 
 .counter {
+    width: 96%;
+    height: 2.8rem;
+    opacity: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: .1rem #714FEE solid;
+    border-radius: .8rem;
 }
+
+.btn {
+    width: 2.7rem;
+    height: 2.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1rem;
+    height: 1rem;
+    color: #C6C6C6;
+}
+
+.inputValue {
+    width: fit-content;
+    height: fit-content;
+    direction: ltr;
+    color: black;
+    border: none;
+    font-size: .8rem;
+}
+
+.inputValue:focus {
+    outline: none;
+}
+
+.toman {
+    font-size: .95rem;
+    color: #6F4DED;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}input::-webkit-outer-spin-button,
+ input::-webkit-inner-spin-button {
+     -webkit-appearance: none;
+     margin: 0;
+ }
