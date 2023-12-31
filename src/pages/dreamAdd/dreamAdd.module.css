@@ -1,6 +1,7 @@
 .body {
     width: 100%;
     height: 100vh;
+    padding: 0 0 2rem 0;
 }
 
 .section {
@@ -24,19 +25,19 @@
     max-width: 370px;
 }
 
-.Btn {
-    width: 8.7rem;
-    height: 8.7rem;
+.uploadInp {
+    display: none;
+}
+
+.uploadButton {
+    width: 8rem;
+    height: 15rem;
     background-color: #F2F2F2;
     color: #717171;
     border: none;
     border-radius: .7rem;
     font-size: .7rem;
     margin-top: 1.5rem;
-}
-
-.inp {
-    display: none;
 }
 
 .upload {
@@ -106,12 +107,13 @@
 
 .btn {
     width: 2.7rem;
-    height: 2.6rem;
+    height: 2.7rem;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: transparent;
     border: none;
+    cursor: pointer;
 }
 
 .icon {
@@ -130,10 +132,15 @@
     color: black;
     border: none;
     font-size: .8rem;
+    text-align: center;
 }
 
 .inputValue:focus {
     outline: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #9880F2;
 }
 
 .toman {
@@ -144,8 +151,24 @@ input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
     -webkit-appearance: none;
     margin: 0;
-}input::-webkit-outer-spin-button,
+}
+
+input::-webkit-outer-spin-button,
  input::-webkit-inner-spin-button {
      -webkit-appearance: none;
      margin: 0;
  }
+
+.subcounter {
+    font-size: .58rem;
+    opacity: 40%;
+    margin: 0 0 1rem 0;
+}
+
+.button {
+    margin: 3rem 0 -.9rem 0;
+    background-color: #FFD500;
+    width: 15rem;
+    height: 7rem;
+}
+
