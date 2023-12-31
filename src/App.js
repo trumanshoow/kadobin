@@ -18,6 +18,7 @@ import LayoutLogin from "./layout/login";
 import Mobile from './pages/login/mobile';
 import Profile from './pages/profile';
 import UserDreams from './pages/userdreams';
+import Cart from "./pages/cart"
 import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
 
 const App = () => {
@@ -40,6 +41,7 @@ const App = () => {
                     <Route path="/Products" element={<Products/>}/>
                     <Route path="/profile" element={<Profile/>}/>
                     <Route path="/userDreams" element={<UserDreams/>}/>
+                    <Route path="/Cart" element={<Cart/>}/>
                 </Routes>
             </Router>
         </Provider>
