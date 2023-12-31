@@ -31,6 +31,7 @@
 .Btn {
     margin: -1.5rem 0 .8rem 0;
     padding: .6rem 4.7rem;
+    background-color: var(--babyYellow);
 }
 
 .title {

@@ -1,0 +1,18 @@
+.box {
+    width: 90%;
+    color: green;
+    border-radius: .7rem;
+    font-size: .7rem;
+}
+
+.box[data-mode="success"] {
+    background-color: #3bc23b;
+}
+
+.box[data-mode="error"] {
+    background-color: red;
+}
+
+.box[data-mode="info"] {
+    background-color: dodgerblue;
+}

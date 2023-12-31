@@ -29,11 +29,6 @@
     width: 70%;
 }
 
-.container button {
-    margin-top: -1.6rem;
-    padding: .9rem 5rem;
-}
-
 .boxWrapper {
     width: 100%;
     margin-top: 2rem;
@@ -44,4 +39,9 @@
 .banner {
     margin-top: 2rem;
     width: 18rem;
+}
+.button {
+    background-color: var(--babyYellow);
+    margin-top: -1.6rem;
+    padding: .9rem 5rem;
 }
