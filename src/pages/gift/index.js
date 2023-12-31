@@ -15,6 +15,7 @@ const GiftPage = () => {
         <MainLayout
             icon={<Back width="2.5rem" />}
             headerColor="white"
+            title=" هدیه "
         >
             <div className={styles.body}>
                 <div className={styles.whiteSection}>
@@ -23,7 +24,6 @@ const GiftPage = () => {
                         <h3 className={styles.title}> به کی می خوای هدیه بدی ؟ </h3>
                         <div>
                             <Input
-                                type={text}
                                 value={name}
                                 onChange={event => setName(event.currentTarget.value)}
                                 inputClassName={styles.Input}
@@ -33,11 +33,11 @@ const GiftPage = () => {
                         <div className={styles.parentInput}>
                             <button className={styles.button}><Telephon className={styles.Telephone} /></button>
                             <Input
+                                type="number"
                                 value={phoneNumber}
                                 onChange={event => setNumber(event.currentTarget.value)}
                                 inputClassName={styles.Input2}
-                                type={Number}
-                                placeholder="_ _ _ _ _ _ _ _ _09"
+                                placeholder="_ _ _ _ _ _ _ _ _09 "
                             />
                         </div>
                         <h3 className={styles.name}> اسم و شماره تماس کسی که می خوای بهش کادو بدی رو وارد کن.</h3>

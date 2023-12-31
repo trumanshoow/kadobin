@@ -3,6 +3,13 @@
     display: flex;
     justify-content: center;
 }
+.container{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 .wrapperWhite{
     display: flex;
     align-items: center;
@@ -27,10 +34,6 @@
 }
 .boxicon:active {
     box-shadow: 0 2px #e5dfdf;
-}
-.pencil{
-    font-size: 1rem;
-    color: black;
 }
 .img{
     margin-top: -4rem;
