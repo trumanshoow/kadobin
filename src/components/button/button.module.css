@@ -14,3 +14,13 @@
     box-shadow: 0 2px #EEC600;
     transform: translateY(4px);
 }
+
+.disabled{
+    background-color: #f3f3f3;
+    box-shadow: 0px 7px 4px gainsboro;
+    color: darkgray;
+}
+.disabled:active{
+    box-shadow: 0 2px gainsboro;
+    transform: translateY(4px);
+}

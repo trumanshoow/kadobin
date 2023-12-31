@@ -1,0 +1,82 @@
+.body {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.wrapperWhite{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 18rem;
+    border-radius: 1rem;
+    background-color: white;
+    overflow-y: auto;
+}
+.header{
+    height: 4.3rem;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.boxicon{
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: #f3f3f3;
+    box-shadow: 0 4px #e5dfdf;
+}
+.boxicon:active {
+    box-shadow: 0 2px #e5dfdf;
+}
+.pencil{
+    font-size: 1rem;
+    color: black;
+}
+.img{
+    margin-top: -4rem;
+    height: 10rem;
+}
+.boxSpecifications{
+    width: 65%;
+    text-align: center;
+}
+.Specifications{
+    font-size: .6rem;
+}
+.Producers{
+    font-size: .7rem;
+}
+.users{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.user{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.parenticon{
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #d6ceff;
+}
+.name{
+    font-size: .4rem;
+    margin: 0;
+}
+.Price{
+    margin: 0;
+    color: #e6e6e6;
+    font-size: .7rem;
+}
+.amin{
+    width: 2.5rem;
+    height: 2.5rem;
+}
