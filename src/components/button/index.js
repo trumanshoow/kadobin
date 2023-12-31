@@ -1,10 +1,12 @@
 
+import classNames from "classnames";
 import styles from './button.module.css'
-const Button = ({className ,text , onClick}) => {
+
+const Button = ({className, text , onClick, disabled}) => {
     return (
-        <>
-            <button className={styles.button+" "+className} onClick={onClick}>{text}</button>
-        </>
+        <button className={classNames(styles.button, className, {[styles.disabled]: disabled})} onClick={onClick}>
+            {text}
+        </button>
     );
 };
 

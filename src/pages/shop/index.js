@@ -43,7 +43,7 @@ const ShopPage = () => {
                      data.map((item, index) => (
                         <ServicesButton className={styles.ServicesButton2}
                            key={index}
-                           {...item}
+                           {...item} 
                         />
                      ))
                   }

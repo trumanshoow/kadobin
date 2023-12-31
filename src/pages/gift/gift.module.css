@@ -71,14 +71,7 @@
 .Button{
     width: 13rem;
     height: 3rem;
-    background-color: #f3f3f3;
-    box-shadow: 0px 7px 4px gainsboro;
     margin-top: -1.5rem;
-    color: darkgray;
-}
-.Button:active{
-    box-shadow: 0 2px gainsboro;
-    transform: translateY(4px);
 }
 .Telephone {
     width: 1.3rem;
