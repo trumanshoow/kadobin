@@ -29,7 +29,7 @@ const GiftPage = () => {
                     <h3 className={styles.name}> اسم و شماره تماس کسی که می خوای بهش کادو بدی رو وارد کن.</h3>
                 </div>
             </div>
-                    <Button className={styles.Button} text="ادامه"></Button>
+                    <Button className={styles.Button} children="ادامه"></Button>
         </div>
 
         </MainLayout>

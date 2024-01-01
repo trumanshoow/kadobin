@@ -40,7 +40,7 @@ const Home = () => {
                 </div>
 
                 <div className={styles.container}>
-                    <Button text={'ارسال کادو'} className={styles.button}></Button>
+                    <Button children={'ارسال کادو'} className={styles.button}></Button>
                     <div className={styles.boxWrapper}>
                         {
                             data.map((item, index) =>

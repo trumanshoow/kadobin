@@ -15,15 +15,15 @@ import MainLayout from '../../layout/main';
 import HamburgMenu_icon from "../../assets/icons/hamburgMenu_icon";
 
 const data = [
-   { subTitle: " 25عنوان ", title: " هدیه نقدی ", Icon: Banknotes },
-   { subTitle: " 25عنوان ", title: " زیورالات ", Icon: Jewelry },
-   { subTitle: " 68عنوان ", title: " پوشاک مردانه ", Icon: Tshirt },
-   { subTitle: " 25عنوان ", title: " وسایل ورزشی ", Icon: Soccer },
-   { subTitle: " 325عنوان ", title: " کالای دیجیتال ", Icon: Smartphone },
-   { subTitle: " 59عنوان ", title: " اسباب بازی ", Icon: Christmas },
-   { subTitle: " 100عنوان ", title: " کیف و کفش ", Icon: Women },
-   { subTitle: " 630عنوان ", title: " اکسسوری ", Icon: Souvenirs },
-   { subTitle: " 25عنوان ", title: " رز جاودان ", Icon: Flower },
+   { subTitle: " 25 عنوان ", title: " هدیه نقدی ", Icon: Banknotes },
+   { subTitle: " 25 عنوان ", title: " زیورالات ", Icon: Jewelry },
+   { subTitle: " 68 عنوان ", title: " پوشاک مردانه ", Icon: Tshirt },
+   { subTitle: " 25 عنوان ", title: " وسایل ورزشی ", Icon: Soccer },
+   { subTitle: " 325 عنوان ", title: " کالای دیجیتال ", Icon: Smartphone },
+   { subTitle: " 59 عنوان ", title: " اسباب بازی ", Icon: Christmas },
+   { subTitle: " 100 عنوان ", title: " کیف و کفش ", Icon: Women },
+   { subTitle: " 630 عنوان ", title: " اکسسوری ", Icon: Souvenirs },
+   { subTitle: " 25 عنوان ", title: " رز جاودان ", Icon: Flower },
 ]
 
 const ShopPage = () => {
@@ -48,7 +48,7 @@ const ShopPage = () => {
                      ))
                   }
                </div>
-               <Button className={styles.Button} text=" همه محصولات " />
+               <Button className={styles.Button} children=" همه محصولات " />
             </div>
          </div>
       </MainLayout>

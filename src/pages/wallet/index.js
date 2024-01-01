@@ -21,7 +21,7 @@ const WalletPage = () => {
         const mode = 'success'
         setText({
             text: success,
-            mode: "error",
+            style: mode,
         })
     }
     return (
@@ -31,7 +31,7 @@ const WalletPage = () => {
             subtitle="واریز و برداشت"
             headerColor="var(--babyBg)"
         >
-            <Alert text={notification?.text} onFinish={()=> setText(null)} mode={notification?.mode}/>
+            <Alert text={notification?.text} onFinish={()=> setText(null)} mode={notification?.style}/>
             <div className={styles.walletBalance}>
                 <div className={styles.wrapperImg}>
                     <img src={require("../../assets/image/wallet.png")}/>
@@ -48,7 +48,7 @@ const WalletPage = () => {
             <h3></h3>
             <div>
                 <Button onClick={request}>
-                    Fuck
+                    aaaa
                 </Button>
                 <Button>
                     +

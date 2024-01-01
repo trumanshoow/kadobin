@@ -11,9 +11,12 @@ const MenuLink = ({to, Icon, ActiveIcon, text}) => {
             >
                 {({isActive})=> (
                     <>
-                        {isActive ? <ActiveIcon width="1.2rem"/> : <Icon width="1.2rem" className={styles.paddingIcon}/>}
+                        <div>
+                            {isActive ? <ActiveIcon width="1.2rem"/> : <Icon width="1.2rem" className={styles.paddingIcon}/>}
+                        </div>
                         <div className={styles.TextWrapper}>
-                            <p style={{fontSize: isActive ? 10 : 12}}>{text}</p>
+                            <p style={{marginTop: isActive ? 10 : 1 ,color: isActive ? '#8F6DF4' : null}}>{text}</p>
+                            {/*<p className={({isActive})=> className({[styles.activeText]: isActive})}>{text}</p>*/}
                         </div>
                     </>
                 )}
