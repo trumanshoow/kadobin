@@ -37,7 +37,7 @@ const DreamPage = () => {
                         <div className={styles.subtitle}>
                             <span>یادت باشه که آرزو هات قراره توسط کسایی که بهت می خوان کادو بدن قراره برآورده بشه ، پس چیزی آرزو نکن که از توانشون خارج</span>
                         </div>
-                        <button  className={styles.dreamCounter}>هنوز <span className={styles.valueSpan}>{value}</span> تا آرزوی دیگه داری</button>
+                        <button className={styles.dreamCounter}>هنوز <span className={styles.valueSpan}>{value}</span> تا آرزوی دیگه داری</button>
                     </div>
 
                 </div>

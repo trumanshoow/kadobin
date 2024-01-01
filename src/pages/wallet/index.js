@@ -7,6 +7,7 @@ import Alert from "../../components/alert";
 import React, {useState} from "react";
 import servicesButton from "../data/servicesButton";
 import plusIcon from "../../assets/plusIcon";
+import PlusIcon from "../../assets/plusIcon";
 
 
 const WalletPage = () => {
@@ -44,7 +45,7 @@ const WalletPage = () => {
             </div>
             <div className={styles.buttonWrapper}>
                 <Button onClick={request} className={styles.payButton}>پرداخت</Button>
-                <Button icon={plusIcon} className={styles.addButton}/>
+                <Button icon={plusIcon} className={styles.addButton}>{<PlusIcon/>}</Button>
             </div>
             <div className={styles.container}>
                 <p className={styles.text}>برای برداشت وجه ابتدا بایستی مقصد برداشت شیوه واریز را در پروفایل مشخص نمایید</p>

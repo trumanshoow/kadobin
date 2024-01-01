@@ -6,7 +6,7 @@ import LogoTextIcon from '../../assets/icons/logo_text_icon'
 
 const LayoutLogin = () => {
 
-        const [searchParams, setSearchParams]  = useSearchParams();
+        const [searchParams]  = useSearchParams();
         const error = searchParams.get("error")
 
     return (
