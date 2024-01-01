@@ -2,6 +2,7 @@ import styles from "./cart.module.css"
 import MainLayout from "../../layout/main"
 import Back from "../../assets/icons/back-card-icon"
 import Bucket from "../../assets/icons/bucket"
+import Plus from "../../assets/icons/Plus"
 
 const Cart = () => {
     return (
@@ -25,6 +26,12 @@ const Cart = () => {
                         <div className={styles.ParentIcon}>
                             <Bucket className={styles.Icon} />
                         </div>
+                    </div>
+                    <div className={styles.add}>
+                        <div className="">
+                            <Plus width="1rem" />
+                        </div>
+                        افزودن محصول
                     </div>
                 </div>
             </div>
