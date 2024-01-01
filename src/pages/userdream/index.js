@@ -20,7 +20,6 @@ const UserDream = () => {
                 <div className={styles.body}>
                     <div className={styles.section}>
                         <div className={styles.container}>
-                            <div>
                                 <img className={styles.productImg} src={require("../../assets/image/playstion.png")}
                                      alt="pes"/>
                                 <span
@@ -50,7 +49,6 @@ const UserDream = () => {
                                 <div className={styles.btnWrapper}>
                                     <Button className={styles.btn} text="برآورده کن"/>
                                 </div>
-                            </div>
                         </div>
                     </div>
                 </div>
