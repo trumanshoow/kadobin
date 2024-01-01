@@ -79,5 +79,4 @@
 }
 .parentjensiat Button:active {
     box-shadow: 0 2px #e5dfdf;
-    transform: translateY(4px);
 }

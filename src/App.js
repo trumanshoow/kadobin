@@ -17,7 +17,10 @@ import DreamAdd from "./pages/dreamAdd";
 import LayoutLogin from "./layout/login";
 import Mobile from './pages/login/mobile';
 import Profile from './pages/profile';
+import UserDreams from './pages/userdreams';
+import Cart from "./pages/cart"
 import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
+import UserDream from "./pages/userdream";
 
 const App = () => {
     return (
@@ -32,12 +35,15 @@ const App = () => {
                     <Route path="/" element={<Home/>}/>
                     <Route path="/shop" element={<Shop/>}/>
                     <Route path="/gift" element={<Gift/>}/>
+                    <Route path="/gift/user" element={<UserDream/>}/>
                     <Route path="/wallet" element={<Wallet/>}/>
                     <Route path="/dreams" element={<Dreams/>}/>
                     <Route path="/dreams/addwish" element={<DreamAdd/>}/>
                     <Route path="/Menu" element={<Menu/>}/>
                     <Route path="/Products" element={<Products/>}/>
                     <Route path="/profile" element={<Profile/>}/>
+                    <Route path="/userDreams" element={<UserDreams/>}/>
+                    <Route path="/Cart" element={<Cart/>}/>
                 </Routes>
             </Router>
         </Provider>
