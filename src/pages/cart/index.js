@@ -34,7 +34,7 @@ const Cart = () => {
                         </div>
                         افزودن محصول
                     </div>
-                    {/* <SimpleSlider /> */}
+                    <div></div>
                 </div>
             </div>
         </MainLayout>
