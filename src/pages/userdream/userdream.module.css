@@ -56,3 +56,32 @@
     font-size: .6rem;
     margin: 0 .4rem 0 0;
 }
+
+.progressWrap {
+    position: relative;
+}
+
+.valueSpan {
+    font-size: .7rem;
+    left: .1rem;
+    margin-top: .2rem;
+    position: absolute;
+}
+
+
+.subProgress {
+    font-size: .65rem;
+    color: #BBBBBB;
+    margin-top: .3rem;
+}
+
+.btnWrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.65rem;
+}
+
+.btn {
+    width: 14rem;
+    height: 2.87rem;
+}
