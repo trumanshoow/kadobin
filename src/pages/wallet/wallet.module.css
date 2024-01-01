@@ -4,14 +4,14 @@
 .walletBalance {
     width: 90%;
     height: 8.5rem;
-    margin-top: 3rem;
+    margin-top: 2rem;
     border-radius: 1rem;
     background-color: white;
     display: flex;
     align-items: center;
     justify-content: space-around;
     position: relative;
-    box-shadow: 0 12px 19px -21px black;
+    box-shadow: 0 5px 19px -21px black;
 }
 .walletBalance img {
     width: 10rem;
@@ -37,4 +37,36 @@
 .toman {
     color: gray;
     font-size: .7rem;
+}
+.buttonWrapper {
+    width: 90%;
+    height: 3rem;
+    display: flex;
+    justify-content: space-between;
+    margin-top: .9rem;
+}
+.payButton {
+    width: 69%;
+}
+.addButton {
+    background-color: var(--babyseccess);
+    box-shadow: 0 4px #39B964;
+    width: 28%;
+    color: white;
+}
+.addButton:active {
+    box-shadow: 0 2px #398653;
+}
+.servicesWrapper {
+    width: 100%;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-around;
+}
+.text {
+    font-size: .6rem;
+    color: var(--babygray);
+}
+.title {
+    color: var(--babyPurple);
 }

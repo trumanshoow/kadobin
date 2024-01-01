@@ -5,7 +5,8 @@ import Bill_card_icon from "../../assets/icons/bill_card_icon";
 import MainLayout from "../../layout/main";
 import HamburgMenu_icon from "../../assets/icons/hamburgMenu_icon";
 import Alert from "../../components/alert";
-import {useState} from "react";
+import React, {useState} from "react";
+import servicesButton from "../data/servicesButton";
 
 
 const WalletPage = () => {
@@ -31,7 +32,7 @@ const WalletPage = () => {
             subtitle="واریز و برداشت"
             headerColor="var(--babyBg)"
         >
-            <Alert text={notification?.text} onFinish={()=> setText(null)} mode={notification?.style}/>
+            <Alert text={notification?.text} onFinish={() => setText(null)} mode={notification?.style}/>
             <div className={styles.walletBalance}>
                 <div className={styles.wrapperImg}>
                     <img src={require("../../assets/image/wallet.png")}/>
@@ -41,22 +42,22 @@ const WalletPage = () => {
                     <p className={styles.subTitle}>150.000<span className={styles.toman}>تومان</span></p>
                 </div>
             </div>
-            <div>
+            <div className={styles.buttonWrapper}>
+                <Button onClick={request} className={styles.payButton} text='پرداخت'/>
+                <Button text='+' className={styles.addButton}/>
+            </div>
+            <p className={styles.text}>برای برداشت وجه ابتدا بایستی مقصد برداشت شیوه واریز را در پروفایل مشخص نمایید</p>
+            <h3 className={styles.title}>دیگر امکانات</h3>
 
-            </div>
-            <p></p>
-            <h3></h3>
-            <div>
-                <Button onClick={request}>
-                    aaaa
-                </Button>
-                <Button>
-                    +
-                </Button>
-            </div>
-            <ServicesButton text={"www"} Icon={Bill_card_icon}/>
-            <div>
-                <span>sswwooiippee</span>
+            <div className={styles.servicesWrapper}>
+                {
+                    servicesButton.map((item, index) =>
+                        <ServicesButton
+                            key={index}
+                            {...item}
+                        />
+                    )
+                }
             </div>
         </MainLayout>
     );
