@@ -3,6 +3,7 @@ import MainLayout from "../../layout/main"
 import Back from "../../assets/icons/back-card-icon"
 import Bucket from "../../assets/icons/bucket"
 import Plus from "../../assets/icons/Plus"
+import SimpleSlider from "../../components/slider"
 
 const Cart = () => {
     return (
@@ -19,7 +20,7 @@ const Cart = () => {
                         <div className={styles.Specificationbox}>
                             <p className={styles.Name}> کنسول بازی سونی مدل ظرفیت 825 گیگابایت Playstation 5  </p>
                             <div className={styles.Specifications}>
-                                <div className={styles.Discount}> مبلغ مشارکت </div>
+                                <div className={styles.amount}> مبلغ مشارکت </div>
                                 <p className={styles.Price}>50.000</p>
                             </div>
                         </div>
@@ -28,11 +29,12 @@ const Cart = () => {
                         </div>
                     </div>
                     <div className={styles.add}>
-                        <div className="">
-                            <Plus width="1rem" />
+                        <div className={styles.parentplus}>
+                            <Plus styles={{color:"blue"}} width=".7rem" />
                         </div>
                         افزودن محصول
                     </div>
+                    {/* <SimpleSlider /> */}
                 </div>
             </div>
         </MainLayout>
