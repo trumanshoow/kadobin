@@ -9,7 +9,6 @@ const Alert = ({text, onFinish, mode}) => {
         }
     }, [text]);
 
-
     if(!text) {
         return null
     }

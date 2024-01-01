@@ -33,7 +33,7 @@ const DreamPage = () => {
                         </div>
                     </div>
                     <div className={styles.container}>
-                        <Button onClick={()=> navigation("/dreams/addwish")} text="آرزو کن" className={styles.Btn}></Button>
+                        <Button onClick={()=> navigation("/dreams/addwish")} children="آرزو کن" className={styles.Btn}></Button>
                         <div className={styles.subtitle}>
                             <span>یادت باشه که آرزو هات قراره توسط کسایی که بهت می خوان کادو بدن قراره برآورده بشه ، پس چیزی آرزو نکن که از توانشون خارج</span>
                         </div>
