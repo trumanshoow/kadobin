@@ -1,12 +1,12 @@
 import styles from './wallet.module.css'
 import Button from '../../components/button'
 import ServicesButton from "../../components/ServicesButton";
-import Bill_card_icon from "../../assets/icons/bill_card_icon";
 import MainLayout from "../../layout/main";
 import HamburgMenu_icon from "../../assets/icons/hamburgMenu_icon";
 import Alert from "../../components/alert";
 import React, {useState} from "react";
 import servicesButton from "../data/servicesButton";
+import plusIcon from "../../assets/plusIcon";
 
 
 const WalletPage = () => {
@@ -43,21 +43,24 @@ const WalletPage = () => {
                 </div>
             </div>
             <div className={styles.buttonWrapper}>
-                <Button onClick={request} className={styles.payButton} text='پرداخت'/>
-                <Button text='+' className={styles.addButton}/>
+                <Button onClick={request} className={styles.payButton}>پرداخت</Button>
+                <Button icon={plusIcon} className={styles.addButton}/>
             </div>
-            <p className={styles.text}>برای برداشت وجه ابتدا بایستی مقصد برداشت شیوه واریز را در پروفایل مشخص نمایید</p>
-            <h3 className={styles.title}>دیگر امکانات</h3>
-
-            <div className={styles.servicesWrapper}>
-                {
-                    servicesButton.map((item, index) =>
-                        <ServicesButton
-                            key={index}
-                            {...item}
-                        />
-                    )
-                }
+            <div className={styles.container}>
+                <p className={styles.text}>برای برداشت وجه ابتدا بایستی مقصد برداشت شیوه واریز را در پروفایل مشخص نمایید</p>
+                <div className={styles.otherTitle}>
+                    <h3>دیگر امکانات</h3>
+                </div>
+                <div className={styles.servicesWrapper}>
+                    {
+                        servicesButton.map((item, index) =>
+                            <ServicesButton
+                                key={index}
+                                {...item}
+                            />
+                        )
+                    }
+                </div>
             </div>
         </MainLayout>
     );
