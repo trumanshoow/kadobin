@@ -1,10 +1,9 @@
 import React, {useState} from 'react';
-import ProgressBar from "@ramonak/react-progress-bar";
 import Back from "../../assets/icons/back-card-icon";
 import MainLayout from "../../layout/main";
 import styles from "./userdream.module.css"
 import Button from "../../components/button";
-import 
+import ProgressBar from "@ramonak/react-progress-bar";
 const UserDream = () => {
 
     const [value , setValue] = useState(32);
