@@ -1,8 +1,13 @@
-import React from 'react';
+import React, {useState} from 'react';
+import ProgressBar from "@ramonak/react-progress-bar";
 import Back from "../../assets/icons/back-card-icon";
 import MainLayout from "../../layout/main";
 import styles from "./userdream.module.css"
+import Button from "../../components/button";
 const UserDream = () => {
+
+    const [value , setValue] = useState(32);
+
     return (
 
             <MainLayout
@@ -21,6 +26,26 @@ const UserDream = () => {
                             <div className={styles.priceWrapper}>
                                 <span className={styles.price}>6.000.0</span>
                                 <span className={styles.toman}>تومان</span>
+                            </div>
+                            <div className={styles.progressWrap}>
+                                <ProgressBar
+                                    completed={value}
+                                    customLabel=" "
+                                    height=".5rem"
+                                    margin=".3rem 0 0 0"
+                                    borderRadius=".5rem"
+                                    baseBgColor="#eee"
+                                    bgColor="#4bff59"
+                                    labelColor="white"
+                                    labelSize=".3rem"
+                                />
+                                <span className={styles.valueSpan}>%{value}</span>
+                            </div>
+
+                            <span className={styles.subProgress}>کل مبلغ 25.005.000تومان</span>
+
+                            <div className={styles.btnWrapper}>
+                                <Button className={styles.btn} text="برآورده کن"/>
                             </div>
                         </div>
                     </div>
