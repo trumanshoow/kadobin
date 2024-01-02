@@ -4,8 +4,15 @@ import Back from "../../assets/icons/back-card-icon"
 import Bucket from "../../assets/icons/bucket"
 import Plus from "../../assets/icons/Plus"
 import SimpleSlider from "../../components/slider"
+import Product from "../../components/products"
 
 const Cart = () => {
+
+    const data = [
+        { name: " گوشواره طرح نگین دخترانه 18 میلی گرمی ", Discount: "%45", previousprice: "398.000", Price: "298.000" },
+        { name: " گوشواره طرح نگین دخترانه 18 میلی گرمی ", Price: "298.000", }
+    ]
+
     return (
         <MainLayout
             icon={<Back width="2.5rem" />}
@@ -30,11 +37,22 @@ const Cart = () => {
                     </div>
                     <div className={styles.add}>
                         <div className={styles.parentplus}>
-                            <Plus styles={{color:"blue"}} width=".7rem" />
+                            <Plus styles={{ color: "blue" }} width=".7rem" />
                         </div>
                         افزودن محصول
                     </div>
-                    <div></div>
+                    <div className={styles.favorite}>
+                        <SimpleSlider>
+                            {
+                                data.map((item,index)=>(
+                                    <Product 
+                                       key={index}
+                                       {...item}
+                                    />
+                                ))
+                            }
+                        </SimpleSlider>
+                    </div>
                 </div>
             </div>
         </MainLayout>

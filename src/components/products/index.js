@@ -1,16 +1,16 @@
 import Plus from "../../assets/icons/Plus"
 import styles from "./productsData.module.css"
 
-const ProductsData = ({ Name, previousprice, Discount, Price, src }) => {
+const ProductsData = ({ name, previousprice, Discount, Price, src }) => {
     return (
         <div className={styles.Parent}>
             <div className={styles.ParentImg}>
                 <img className={styles.Picture} src={src} />
             </div>
             <div className={styles.Specificationbox}>
-                <p className={styles.Name}>{Name}</p>
+                <p className={styles.Name}>{name}</p>
                 <div className={styles.Specifications}>
-                    <div className={styles.Discount}>{Discount ? Discount : null}</div>
+                    <div className={styles.Discount}>{Discount}</div>
                     <p className={styles.previousprice}>{previousprice}</p>
                 </div>
                 <p className={styles.Price}>{Price}</p>
