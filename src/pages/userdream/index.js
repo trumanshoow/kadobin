@@ -38,24 +38,22 @@ const UserDream = () => {
             headerColor="transparenty"
             icon={<Back width="2.5rem"/>}
         >
-
-            <div className={styles.body}>
-                <div className={styles.section}>
-                    <div className={styles.container}>
-                        <SimpleSlider>
-                            {
-                                data.map((item , index) => (
-                                    <UserDreamModule
-                                        key={index}
-                                        {...item}
-                                    />
-                                ))
-                            }
-                        </SimpleSlider>
+                <div className={styles.body}>
+                    <div className={styles.section}>
+                        <div className={styles.container}>
+                            <SimpleSlider>
+                                {
+                                    data.map((item, index) => (
+                                        <UserDreamModule
+                                            key={index}
+                                            {...item}
+                                        />
+                                    ))
+                                }
+                            </SimpleSlider>
+                        </div>
                     </div>
                 </div>
-            </div>
-
 
         </MainLayout>
     );
