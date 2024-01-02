@@ -13,7 +13,6 @@ const SimpleSlider = ({children}) => {
     };
     return (
         <div style={{width: "100%"}}>
-            <h2> Single Item</h2>
             <Slider {...settings} children={children}>
             </Slider>
         </div>
