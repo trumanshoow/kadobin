@@ -22,7 +22,7 @@ const Cart = () => {
                 <div className={styles.container}>
                     <div className={styles.Parent}>
                         <div className={styles.ParentImg}>
-                            <img className={styles.Picture} src="/assets/images/psfive.webp" />
+                            <img className={styles.Picture} src="/assets/images/psfive.webp"/>
                         </div>
                         <div className={styles.Specificationbox}>
                             <p className={styles.Name}> کنسول بازی سونی مدل ظرفیت 825 گیگابایت Playstation 5  </p>

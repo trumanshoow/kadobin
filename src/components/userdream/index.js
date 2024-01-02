@@ -18,6 +18,7 @@ const UserDream = ({src ,subProductText ,price ,value ,subProgress}) => {
                 <ProgressBar
                     completed={value}
                     customLabel=" "
+                    width="95%"
                     height=".5rem"
                     margin=".3rem 0 0 0"
                     borderRadius=".5rem"
@@ -32,7 +33,7 @@ const UserDream = ({src ,subProductText ,price ,value ,subProgress}) => {
             <span className={styles.subProgress}>{subProgress}</span>
 
             <div className={styles.btnWrapper}>
-                <Button className={styles.btn} text="برآورده کن"/>
+                <Button className={styles.btn}>برآورده کن</Button>
             </div>
         </div>
     );

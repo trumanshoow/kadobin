@@ -1,26 +1,26 @@
 import React from 'react';
-import './styles/fonts.css';
-import './styles/global.css';
-import './styles/variable.css';
+import store from "./redux/store";
+import {Provider} from "react-redux";
+import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
+import Products from "./pages/Products/index"
+import UserDreams from './pages/userdreams';
+import Mobile from './pages/login/mobile';
+import UserDream from "./pages/userdream";
+import LayoutLogin from "./layout/login";
+import DreamAdd from "./pages/dreamAdd";
+import Code from "./pages/login/code";
+import Profile from './pages/profile';
+import Wallet from "./pages/wallet";
+import Dreams from "./pages/dreams";
+import Terms from "./pages/terms";
 import Home from "./pages/home";
 import Shop from "./pages/shop";
 import Gift from "./pages/gift";
 import Menu from "./pages/menu";
-import store from "./redux/store";
-import Terms from "./pages/terms";
-import Wallet from "./pages/wallet";
-import Dreams from "./pages/dreams";
-import Products from "./pages/Products/index"
-import {Provider} from "react-redux";
-import Code from "./pages/login/code";
-import DreamAdd from "./pages/dreamAdd";
-import LayoutLogin from "./layout/login";
-import Mobile from './pages/login/mobile';
-import Profile from './pages/profile';
-import UserDreams from './pages/userdreams';
-import Cart from "./pages/cart"
-import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
-import UserDream from "./components/userdream";
+import Cart from "./pages/cart";
+import './styles/variable.css';
+import './styles/global.css';
+import './styles/fonts.css';
 
 const App = () => {
     return (
