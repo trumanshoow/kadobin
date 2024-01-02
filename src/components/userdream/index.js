@@ -8,7 +8,9 @@ const UserDream = ({src ,subProductText ,price ,value ,subProgress}) => {
 
         <div>
             <img className={styles.productImg} src={src} alt="pes"/>
+            <div className={styles.subProductWrapper}>
             <span className={styles.subProduct}>{subProductText}</span>
+            </div>
             <span className={styles.sumcash}>مبلغ جمع شده</span>
             <div className={styles.priceWrapper}>
                 <span className={styles.price}>{price}</span>
