@@ -94,8 +94,8 @@
 }
 .favorite{
     width: 18rem;
-    display: flex;
 }
 .star{
     font-size: .6rem;
+    color: var(--babyPurple);
 }

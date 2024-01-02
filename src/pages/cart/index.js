@@ -9,8 +9,8 @@ import Product from "../../components/products"
 const Cart = () => {
 
     const data = [
-        { name: " گوشواره طرح نگین دخترانه 18 میلی گرمی ", Discount: "%45", previousprice: "398.000", Price: "298.000" },
-        { name: " گوشواره طرح نگین دخترانه 18 میلی گرمی ", Price: "298.000", }
+        { name: " گوشواره طرح نگین دخترانه 18 میلی گرمی ", Price: "298.000", src:"/assets/images/earrings2.webp"},
+        { name: " گوشواره طرح نگین دخترانه 18 میلی گرمی ", Discount: "%45", previousprice: "398.000", Price: "298.000", src:"/assets/images/earrings1.webp" },
     ]
 
     return (
@@ -42,6 +42,7 @@ const Cart = () => {
                         افزودن محصول
                     </div>
                     <div className={styles.favorite}>
+                        <span className={styles.star}> افزودن از ستاره دارها </span>
                         <SimpleSlider>
                             {
                                 data.map((item,index)=>(
