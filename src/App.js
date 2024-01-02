@@ -20,7 +20,7 @@ import Profile from './pages/profile';
 import UserDreams from './pages/userdreams';
 import Cart from "./pages/cart"
 import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
-import UserDream from "./pages/userdream";
+import UserDream from "./components/userdream";
 
 const App = () => {
     return (

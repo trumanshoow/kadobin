@@ -1,0 +1,87 @@
+.body {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.section {
+    width: 90%;
+    height: 30rem;
+    background-color: white;
+    margin: .3rem 0 0 0;
+    border-radius: .7rem;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 80%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.productImg {
+    width: 9.2rem;
+    height: 9.2rem;
+    margin: 1rem 25% .5rem 25%;
+}
+
+.subProduct {
+    text-align: center;
+    font-size: .75rem;
+    width: 13rem;
+    margin: 0 15%;
+}
+
+.sumcash {
+    margin: 1rem 0 0 0;
+    font-size: .5rem;
+}
+
+.priceWrapper {
+    display: flex;
+    align-items: center;
+    color: #6D4BED;
+}
+
+.price {
+    margin: -.3rem .1rem 0 0;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.toman {
+    font-size: .6rem;
+    margin: 0 .4rem 0 0;
+}
+
+.progressWrap {
+    position: relative;
+}
+
+.valueSpan {
+    font-size: .7rem;
+    left: .1rem;
+    margin-top: .2rem;
+    position: absolute;
+}
+
+
+.subProgress {
+    font-size: .65rem;
+    color: #BBBBBB;
+    margin-top: .3rem;
+}
+
+.btnWrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.65rem;
+}
+
+.btn {
+    width: 14rem;
+    height: 2.87rem;
+}

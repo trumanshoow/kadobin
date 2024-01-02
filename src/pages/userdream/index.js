@@ -1,61 +1,63 @@
-import React, {useState} from 'react';
-import Back from "../../assets/icons/back-card-icon";
+import React from 'react';
 import MainLayout from "../../layout/main";
-import styles from "./userdream.module.css"
-import Button from "../../components/button";
-import ProgressBar from "@ramonak/react-progress-bar";
+import Back from "../../assets/icons/back-card-icon";
+import SimpleSlider from "../../components/slider";
+import UserDreamModule from "../../components/userdream"
+import styles from "../../components/userdream/userdream.module.css";
+
 const UserDream = () => {
 
-    const [value , setValue] = useState(32);
+    const data = [
+        {
+            src: "/assets/images/psfive.webp",
+            subProductText: "Playstation 5 کنسول بازی سونی مدل ظرفیت 825 گیگابایت",
+            price: "6.000.0",
+            value: 32,
+            subProgress: "کل مبلغ 20.000.050 تومان"
+        },{
+            src: "/assets/images/psfive.webp",
+            subProductText: "Playstation 5 کنسول بازی سونی مدل ظرفیت 825 گیگابایت",
+            price: "6.000.0",
+            value: 32,
+            subProgress: "کل مبلغ 20.000.050 تومان"
+        },{
+            src: "/assets/images/psfive.webp",
+            subProductText: "Playstation 5 کنسول بازی سونی مدل ظرفیت 825 گیگابایت",
+            price: "6.000.0",
+            value: 32,
+            subProgress: "کل مبلغ 20.000.050 تومان"
+        }
+
+    ]
 
     return (
 
-            <MainLayout
-                title="آرزوهای علیرضا حسینی"
-                subtitle="09032175822"
-                headerColor="transparenty"
-                icon={<Back width="2.5rem"/>}
-            >
+        <MainLayout
+            title="آرزوهای علیرضا حسینی"
+            subtitle="09032175822"
+            headerColor="transparenty"
+            icon={<Back width="2.5rem"/>}
+        >
 
-                <div className={styles.body}>
-                    <div className={styles.section}>
-                        <div className={styles.container}>
-                                <img className={styles.productImg} src={require("../../assets/image/playstion.png")}
-                                     alt="pes"/>
-                                <span
-                                    className={styles.subProduct}>Playstation 5 کنسول بازی سونی مدل ظرفیت 825 گیگابایت</span>
-                                <span className={styles.sumcash}>مبلغ جمع شده</span>
-                                <div className={styles.priceWrapper}>
-                                    <span className={styles.price}>6.000.0</span>
-                                    <span className={styles.toman}>تومان</span>
-                                </div>
-                                <div className={styles.progressWrap}>
-                                    <ProgressBar
-                                        completed={value}
-                                        customLabel=" "
-                                        height=".5rem"
-                                        margin=".3rem 0 0 0"
-                                        borderRadius=".5rem"
-                                        baseBgColor="#eee"
-                                        bgColor="#4bff59"
-                                        labelColor="white"
-                                        labelSize=".3rem"
+            <div className={styles.body}>
+                <div className={styles.section}>
+                    <div className={styles.container}>
+                        <SimpleSlider>
+                            {
+                                data.map((item , index) => (
+                                    <UserDreamModule
+                                        key={index}
+                                        {...item}
                                     />
-                                    <span className={styles.valueSpan}>%{value}</span>
-                                </div>
-
-                                <span className={styles.subProgress}>کل مبلغ 25.005.000تومان</span>
-
-                                <div className={styles.btnWrapper}>
-                                    <Button className={styles.btn} text="برآورده کن"/>
-                                </div>
-                        </div>
+                                ))
+                            }
+                        </SimpleSlider>
                     </div>
                 </div>
+            </div>
 
 
-            </MainLayout>
-
+        </MainLayout>
     );
 };
 
