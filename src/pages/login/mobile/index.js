@@ -15,7 +15,10 @@ const Mobile = () => {
         <>
             <h4 className={styles.textBox2}>شماره تماس خود را جهت دریافت کد فعالسازی وارد نمائید</h4>
             <Input type={'tel'} placeholder={'09 _ _ _ _ _ _ _ _ _'} maxLength={'11'} className={styles.input}/>
-            <Button className={styles.button} text={"ورود"} onClick={handleClick}></Button>
+            <Button className={styles.button} onClick={()=>[
+                handleClick(),
+                navigate("/login/code"),
+            ]}>ورود</Button>
             <Link to="/login/mobile/terms" className={styles.goDetailsText}>شرایط استفاده از کادوبین</Link>
         </>
     );

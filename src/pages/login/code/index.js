@@ -23,7 +23,7 @@ const Code = ({error}) => {
             </button>
             <h4>کد فعالسازی را وارد نمائید</h4>
             <InputGroup length={5} placeholder={''} className={(error ? styles.error : "")} onChange={handleClickInput}/>
-            <Button className={styles.button} padding={".7rem 7.4rem"} text={'ورود'} onClick={handleClick}></Button>
+            <Button className={styles.button} onClick={handleClick}>ورود</Button>
             <div className={styles.resendWrapper}>
                 <span>02:00</span>
                 <Link to="#">ارسال دوباره کد</Link>
